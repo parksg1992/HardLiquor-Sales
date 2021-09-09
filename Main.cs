@@ -52,7 +52,7 @@ namespace HardLiquor_Sales
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-            LocalSaving localSaving = new LocalSaving();
+            LocalSavings localSaving = new LocalSavings();
             localSaving.ShowDialog();
         }
     }

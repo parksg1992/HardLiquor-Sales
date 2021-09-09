@@ -20,7 +20,7 @@ namespace HardLiquor_Sales
         // NO
         private void button2_Click(object sender, EventArgs e)
         {
-            LocalSaving.noMoreFileToAddFlag = true;
+            LocalSavings.noMoreFileToAddFlag = true;
             this.Close();
         }
 

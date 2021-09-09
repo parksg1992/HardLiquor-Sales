@@ -1,6 +1,6 @@
 ﻿namespace HardLiquor_Sales
 {
-    partial class LocalSaving
+    partial class LocalSavings
     {
         /// <summary>
         /// Required designer variable.
@@ -39,6 +39,7 @@
             this.textBox1.Location = new System.Drawing.Point(27, 44);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(190, 32);
             this.textBox1.TabIndex = 0;
             // 
@@ -69,8 +70,9 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "Done";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // LocalSaving
+            // LocalSavings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -79,7 +81,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
-            this.Name = "LocalSaving";
+            this.Name = "LocalSavings";
             this.Text = "LocalSaving";
             this.ResumeLayout(false);
             this.PerformLayout();

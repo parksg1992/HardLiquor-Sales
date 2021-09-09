@@ -11,7 +11,6 @@ C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiqu
 C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor_Sales.Form2.resources
 C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor_Sales.Form3.resources
 C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor_Sales.Form4.resources
-C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor_Sales.LocalSaving.resources
 C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor_Sales.Main.resources
 C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor_Sales.MoreFileToAdd.resources
 C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor_Sales.Properties.Resources.resources
@@ -20,3 +19,5 @@ C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiqu
 C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor Sales.csproj.CopyComplete
 C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor Sales.exe
 C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor Sales.pdb
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor Sales.csprojAssemblyReference.cache
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor_Sales.LocalSavings.resources

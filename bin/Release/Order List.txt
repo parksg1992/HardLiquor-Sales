@@ -1,0 +1,32 @@
+1 > 6B - Corona Extra,  330ml  : 1
+2 > 6B - Corona Light,  330ml  : 7
+3 > 6B - Guinness,  330ml  : 6
+4 > 6B - Heineken 0.0,  330ml  : 8
+5 > 6B - Negra Modelo,  355ml  : 6
+6 > 8B - 2L OK Cider Black Cherry PET,  2000ml  : 6
+7 > 8B - 2L OK Cider Crisp Apple PET,  2000ml  : 80
+8 > 8B - 2L OK Cider Gin Apple PET,  2000ml  : 6
+9 > 8B - 2L OK Cider Harvest Pear PET,  2000ml  : 6
+10 > 8B - 2L OK Cider Peach PET,  2000ml  : 9999
+11 > 8B - 2L OK Cider Raspberry PET,  2000ml  : 6
+12 > 8B - 2L OK Cider Straw Rhubarb PET,  2000ml  : 6
+13 > 8B - 2L OK Cider White Grape PET,  2000ml  : 6
+14 > 8B - 2L OK Cider Glacier Berry 7% PET,  2000ml  : 6
+15 > 12B - Corona Extra,  330ml  : 6
+16 > 12B - Corona Light,  330ml  : 6
+17 > 12B - Heineken,  330ml  : 66
+18 > 12B - Stella Artois,  330ml  : 6
+19 > 12B - Alexander Keith,  341ml  : 66
+20 > 12B - Belgian Moon,  341ml  : 66
+21 > 12B - Bud Light,  341ml  : 66
+22 > 12B - Bud Light Lime Clear,  341ml  : 66
+23 > 12B - Bud Weiser,  341ml  : 6
+24 > 12B - Canadian,  341ml  : 66
+25 > 12C - Belgian Moon,  355ml  : 99999
+26 > 12C - Rock Creek,  355ml  : 1
+27 > 12C - Heineken,  330ml  : 3
+**28 > 12C - Bud Light,  355ml  : 3
+29 > 12C - Bud Light Apple,  355ml  : 3
+30 > 12C - Bud Light Mango,  355ml  : 3
+31 > 12C - Bud Light Strawberry Lemon,  355ml  : 3
+**32 > 12C - Brewhouse Pilsner,  355ml  : 3

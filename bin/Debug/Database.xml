@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<beer>
+  <_6B name="Corona Extra" num="7110" size="330ml" />
+  <_6B name="Corona Light" num="7111" size="330ml" />
+  <_6B name="Guinness" num="5277" size="330ml" />
+  <_6B name="Heineken 0.0" num="28562" size="330ml" />
+  <_6B name="Heineken" num="5531" size="330ml" />
+  <_6B name="Modelo Especial" num="24068" size="355ml" />
+  <_6B name="Negra Modelo" num="12740" size="355ml" />
+  <_8B name="2L OK Cider Black Cherry PET" num="32366" size="2000ml" />
+  <_8B name="2L OK Cider Crisp Apple PET" num="3438" size="2000ml" />
+  <_8B name="2L OK Cider Gin Apple PET" num="28681" size="2000ml" />
+  <_8B name="2L OK Cider Harvest Pear PET" num="32367" size="2000ml" />
+  <_8B name="2L OK Cider Peach PET" num="7571" size="2000ml" />
+  <_8B name="2L OK Cider Raspberry PET" num="18465" size="2000ml" />
+  <_8B name="2L OK Cider Straw Rhubarb PET" num="32364" size="2000ml" />
+  <_8B name="2L OK Cider White Grape PET" num="32369" size="2000ml" />
+  <_8B name="2L OK Cider Glacier Berry 7% PET" num="3431" size="2000ml" />
+  <_12B name="Corona Extra" num="34733" size="330ml" />
+  <_12B name="Corona Light" num="31035" size="330ml" />
+  <_12B name="Heineken" num="2624" size="330ml" />
+  <_12B name="Hoegarden" num="30440" size="330ml" />
+  <_12B name="Stella Artois" num="34722" size="330ml" />
+  <_12B name="Alexander Keith" num="1071" size="341ml" />
+  <_12B name="Belgian Moon" num="24747" size="341ml" />
+  <_12B name="Bohemian" num="1399" size="341ml" />
+  <_12B name="Bud Light" num="1490" size="341ml" />
+  <_12B name="Bud Light Lime Clear" num="24940" size="341ml" />
+  <_12B name="Bud Weiser" num="1504" size="341ml" />
+  <_12B name="Calgary Export" num="1643" size="341ml" />
+  <_12B name="Canadian" num="1711" size="341ml" />
+  <_12B name="Coors Light" num="2093" size="341ml" />
+  <_12B name="Coors Original" num="32942" size="341ml" />
+  <_12B name="Great Western Light" num="2562" size="341ml" />
+  <_12B name="Great Western Pilsner" num="6157" size="341ml" />
+  <_12B name="GW Original 16" num="14523" size="341ml" />
+  <_12B name="Kokanee" num="2829" size="341ml" />
+  <_12B name="Lab Lite" num="2907" size="341ml" />
+  <_12B name="Old Vienna" num="3489" size="341ml" />
+  <_12B name="Pilsner" num="3650" size="341ml" />
+  <_12B name="Rickards Red" num="3827" size="341ml" />
+  <_12B name="Miller Gen Draft" num="27469" size="355ml" />
+  <_12B name="Miller High Life" num="28633" size="355ml" />
+  <_18B name="Corona Extra" num="34735" size="330ml" />
+  <_18B name="Bud Weiser" num="1509" size="341ml" />
+  <_18B name="Kokanee" num="2833" size="341ml" />
+  <_24B name="Corona Extra" num="34736" size="330ml" />
+  <_24B name="Heineken" num="30434" size="330ml" />
+  <_24B name="Bud Light" num="5388" size="341ml" />
+  <_24B name="Bud Weiser" num="1510" size="341ml" />
+  <_24B name="Canadian" num="1718" size="341ml" />
+  <_24B name="Coors Light" num="2099" size="341ml" />
+  <_24B name="Kokanee" num="2836" size="341ml" />
+  <_24B name="Lab Lite" num="2912" size="341ml" />
+  <_24B name="Miller Lite" num="27478" size="341ml" />
+  <_24B name="Pilsner" num="3656" size="341ml" />
+  <_24B name="Miller Gen Draft" num="27471" size="355ml" />
+  <_1C name="Bud Light" num="21070" size="740ml" />
+  <_1C name="Bud Weiser" num="21072" size="740ml" />
+  <_1C name="Busch Ice" num="30631" size="740ml" />
+  <_1C name="Busch" num="22483" size="740ml" />
+  <_1C name="Kokanee" num="24588" size="740ml" />
+  <_1C name="Labatt Xtra" num="26057" size="740ml" />
+  <_4C name="Belgian Moon Mango" num="30930" size="473ml" />
+  <_4C name="Bud Light Strawberry Lemon" num="33279" size="473ml" />
+  <_4C name="GIB Eng Bay Pale" num="0" size="473ml" />
+  <_4C name="GIB German Pilsner" num="0" size="473ml" />
+  <_4C name="GIB Northwest Pale" num="0" size="473ml" />
+  <_4C name="GIB West Coast IPA" num="0" size="473ml" />
+  <_6C name="Coors Organic" num="33328" size="355ml" />
+  <_6C name="Belgian Moon Light" num="33282" size="355ml" />
+  <_6C name="Bud Chelada" num="14699" size="355ml" />
+  <_6C name="Bud Light Chelada" num="14700" size="355ml" />
+  <_6C name="Michelob Ultra" num="30539" size="355ml" />
+  <_6C name="OK Black Cherry" num="16243" size="355ml" />
+  <_6C name="OK Cider Crisp Apple" num="19760" size="355ml" />
+  <_6C name="OK Cider Peach" num="19225" size="355ml" />
+  <_6C name="OK Harvest Pear" num="13336" size="355ml" />
+  <_6C name="Rock Creek Apple Cider" num="6112" size="355ml" />
+  <_6C name="Stanley Park Sunsetter" num="26259" size="355ml" />
+  <_6C name="Kokanee" num="5534" size="473ml" />
+  <_6C name="Vizzy Blueberry Pomegranate" num="36259" size="355ml" />
+  <_6C name="Vizzy Pineapple Mango" num="36258" size="355ml" />
+  <_6C name="BudLight Seltzer Strawberry" num="35682" size="355ml" />
+  <_6C name="BudLight Seltzer Black Cherry" num="35680" size="355ml" />
+  <_6C name="BudLight Seltzer Mango" num="35681" size="355ml" />
+  <_8C name="Lucky Extra" num="30398" size="355ml" />
+  <_8C name="Great West Radler" num="30764" size="355ml" />
+  <_12C name="Stanley Park Concession Mix" num="31872" size="355ml" />
+  <_12C name="Heineken" num="7247" size="330ml" />
+  <_12C name="Stella Artois" num="34276" size="330ml" />
+  <_12C name="Rock Creek" num="30386" size="355ml" />
+  <_12C name="Belgian Moon" num="25021" size="355ml" />
+  <_12C name="Bohemian" num="30390" size="355ml" />
+  <_12C name="Brewhouse Pilsner" num="0" size="355ml" />
+  <_12C name="Brewhouse Light" num="0" size="355ml" />
+  <_12C name="Bud Light" num="0" size="355ml" />
+  <_12C name="Bud Light Summer Mix" num="35975" size="355ml" />
+  <_12C name="Bud Nitro" num="33269" size="355ml" />
+  <_12C name="Bud Weiser Copper" num="0" size="355ml" />
+  <_12C name="Bud Light Strawberry Lemon" num="33278" size="355ml" />
+  <_12C name="Bud Light Apple" num="22238" size="355ml" />
+  <_12C name="Bud Light Grapefruit" num="0" size="355ml" />
+  <_12C name="Bud Light Lime" num="8363" size="355ml" />
+  <_12C name="Bud Light Mango" num="35974" size="355ml" />
+  <_12C name="Bud Light Orange" num="30540" size="355ml" />
+  <_12C name="BR Summer Crush" num="0" size="355ml" />
+  <_12C name="Bud Light Chelada" num="22189" size="355ml" />
+  <_12C name="Canadian" num="31203" size="355ml" />
+  <_12C name="Coors Light" num="31205" size="355ml" />
+  <_12C name="Coors Original" num="32938" size="355ml" />
+  <_12C name="Coors Slice Lime" num="33141" size="355ml" />
+  <_12C name="Coors Summer Mix" num="0" size="355ml" />
+  <_12C name="Coors Slice" num="0" size="355ml" />
+  <_12C name="Corona Extra" num="34727" size="355ml" />
+  <_12C name="Export" num="30546" size="355ml" />
+  <_12C name="Goose Isl Mixer" num="0" size="355ml" />
+  <_12C name="GIB Sip Easy Lager" num="0" size="355ml" />
+  <_12C name="Kokanee" num="0" size="355ml" />
+  <_12C name="BudLight Seltzer Variety Pack" num="35683" size="355ml" />
+  <_12C name="Big Rock Honey Brown Lager" num="31516" size="355ml" />
+  <_12C name="Big Rock Variety Pack" num="36378" size="355ml" />
+  <_12C name="Black Ice" num="5778" size="355ml" />
+  <_12C name="Vizzy Mixer Pack" num="35737" size="355ml" />
+  <_12C name="OK Variety" num="21140" size="355ml" />
+  <_12C name="Rickards Radler" num="24056" size="355ml" />
+  <_12C name="Sol Domestic" num="33730" size="355ml" />
+  <_12C name="Bud Light Orange" num="30544" size="355ml" />
+  <_12C name="Black Ice" num="23644" size="710ml" />
+  <_12C name="Canadian" num="11245" size="710ml" />
+  <_12C name="Coors Light" num="11244" size="710ml" />
+  <_12C name="Molson Dry" num="23813" size="710ml" />
+  <_12C name="Pilsner" num="28172" size="710ml" />
+  <_12C name="Coors Original" num="34281" size="710ml" />
+  <_15C name="Canadian" num="1714" size="355ml" />
+  <_15C name="Keystone" num="10860" size="355ml" />
+  <_15C name="Keystone Light" num="10859" size="355ml" />
+  <_15C name="Alberta Genuine Draft" num="5407" size="355ml" />
+  <_15C name="Alex Keith" num="6818" size="355ml" />
+  <_15C name="Blue" num="0" size="355ml" />
+  <_15C name="Brewhouse Light" num="32946" size="355ml" />
+  <_15C name="Bud Light" num="5493" size="355ml" />
+  <_15C name="Bud Weiser" num="1507" size="355ml" />
+  <_15C name="Busch Ice" num="17591" size="355ml" />
+  <_15C name="Busch" num="6756" size="355ml" />
+  <_15C name="Brewhouse Ice" num="0" size="355ml" />
+  <_15C name="Brewhouse Pilsner" num="32947" size="355ml" />
+  <_15C name="Great Western Radler" num="30757" size="355ml" />
+  <_15C name="GW Original 16" num="14524" size="355ml" />
+  <_15C name="Kokanee" num="5535" size="355ml" />
+  <_15C name="Lab Lite" num="5540" size="355ml" />
+  <_15C name="Lucky Lager" num="7436" size="355ml" />
+  <_15C name="Michelob Ultra" num="28276" size="355ml" />
+  <_15C name="Miller Genuine Draft" num="27467" size="355ml" />
+  <_15C name="Miller high Life" num="27463" size="355ml" />
+  <_15C name="Miller Lite" num="27475" size="355ml" />
+  <_15C name="Molson Dry" num="3319" size="355ml" />
+  <_15C name="Natty Light" num="31847" size="355ml" />
+  <_15C name="Original 16 Copper" num="18421" size="355ml" />
+  <_15C name="Original 16 Ultra" num="34161" size="355ml" />
+  <_15C name="Coors Organic" num="34163" size="355ml" />
+  <_15C name="Shocktop White" num="28089" size="355ml" />
+  <_15C name="Molson Ultra" num="33145" size="355ml" />
+  <_15C name="Pilsner" num="3653" size="355ml" />
+  <_15C name="Coors Light" num="2096" size="355ml" />
+  <_15C name="Coors Original" num="34963" size="355ml" />
+  <_18C name="Kokanee" num="5536" size="355ml" />
+  <_18C name="Bud Light" num="12443" size="355ml" />
+  <_18C name="Bud Weiser" num="12445" size="355ml" />
+  <_18C name="Canadian" num="1717" size="355ml" />
+  <_18C name="Coors Light" num="6621" size="355ml" />
+  <_18C name="Coors Original" num="32939" size="355ml" />
+  <_18C name="Great Western Light" num="14627" size="355ml" />
+  <_18C name="Great Western Classic" num="21486" size="355ml" />
+  <_18C name="Great Western Pilsner" num="14778" size="355ml" />
+  <_18C name="Pilsner" num="15554" size="355ml" />
+  <_18C name="Great Western Lager" num="35940" size="355ml" />
+  <_24C name="Great Western Lager" num="35941" size="355ml" />
+  <_24C name="Keystone Light" num="16659" size="355ml" />
+  <_24C name="Alberta Genuine" num="31594" size="355ml" />
+  <_24C name="Bohemian" num="30391" size="355ml" />
+  <_24C name="Brewhouse Pilsner" num="11685" size="355ml" />
+  <_24C name="Bud Light" num="6566" size="355ml" />
+  <_24C name="Bud Light Tumbler PIN" num="0" size="355ml" />
+  <_24C name="Bud M`ampM" num="0" size="355ml" />
+  <_24C name="Bud" num="0" size="355ml" />
+  <_24C name="Bud Weiser" num="1511" size="355ml" />
+  <_24C name="Busch" num="21856" size="355ml" />
+  <_24C name="Canadian" num="5512" size="355ml" />
+  <_24C name="Coors Light" num="2100" size="355ml" />
+  <_24C name="Coors Original" num="32940" size="355ml" />
+  <_24C name="Corona Sleek" num="34729" size="355ml" />
+  <_24C name="Great Western Classic" num="21888" size="355ml" />
+  <_24C name="Great Western Light" num="7251" size="355ml" />
+  <_24C name="GW Original 16" num="25801" size="355ml" />
+  <_24C name="Great Western Pilsner" num="7249" size="355ml" />
+  <_24C name="Kokanee" num="2837" size="355ml" />
+  <_24C name="Lab Lite" num="5541" size="355ml" />
+  <_24C name="Lucky Lager" num="30788" size="355ml" />
+  <_24C name="Michelob Ultra INCASE" num="0" size="355ml" />
+  <_24C name="Michelob Ultra" num="26329" size="355ml" />
+  <_24C name="Miller High Life" num="27464" size="355ml" />
+  <_24C name="Miller Lite" num="27476" size="355ml" />
+  <_24C name="Pilsner" num="5553" size="355ml" />
+  <_24C name="Rolling Rock" num="28196" size="355ml" />
+  <_24C name="Bud Light Lime" num="31535" size="473ml" />
+  <_24C name="Bud Light Apple" num="22235" size="473ml" />
+  <_24C name="Bud Weiser" num="5497" size="473ml" />
+  <_24C name="Coors Slice" num="0" size="473ml" />
+  <_24C name="Miller High Life Light" num="33825" size="355ml" />
+  <_24C name="Brewhouse Light" num="35465" size="355ml" />
+  <_24C name="Great Western Radler" num="28463" size="473ml" />
+  <_24C name="Michelob Ultra" num="0" size="473ml" />
+  <_24C name="GW Original 16 Prairie" num="0" size="473ml" />
+  <_24C name="OK Cider Crisp Apple" num="0" size="473ml" />
+  <_30C name="Bud Light" num="14755" size="355ml" />
+  <_30C name="Bud Weiser" num="5500" size="355ml" />
+  <_30C name="Canadian" num="5513" size="355ml" />
+  <_30C name="Coors Light" num="6182" size="355ml" />
+  <_30C name="Kokanee" num="2839" size="355ml" />
+  <_36C name="Bud Light" num="0" size="355ml" />
+  <_36C name="Bud Weiser" num="0" size="355ml" />
+  <_36C name="Pilsner" num="0" size="355ml" />
+</beer>

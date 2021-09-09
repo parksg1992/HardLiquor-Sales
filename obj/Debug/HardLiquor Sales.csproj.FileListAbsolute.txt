@@ -1,0 +1,22 @@
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\bin\Debug\HardLiquor Sales.exe.config
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\bin\Debug\HardLiquor Sales.exe
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\bin\Debug\HardLiquor Sales.pdb
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\bin\Debug\itextsharp.dll
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\bin\Debug\itextsharp.xml
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor Sales.csproj.ResolveComReference.cache
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor_Sales.AddToDatabase.resources
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor_Sales.Edit.resources
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor_Sales.Form1.resources
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor_Sales.Form2.resources
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor_Sales.Form3.resources
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor_Sales.Form4.resources
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor_Sales.LocalSaving.resources
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor_Sales.Main.resources
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor_Sales.MoreFileToAdd.resources
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor_Sales.Properties.Resources.resources
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor Sales.csproj.GenerateResource.cache
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor Sales.csproj.CoreCompileInputs.cache
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor Sales.csproj.CopyComplete
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor Sales.exe
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor Sales.pdb

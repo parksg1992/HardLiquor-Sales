@@ -39,7 +39,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(237, 45);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Liquor Sale Marker";
+            this.button1.Text = "Hard Liquor Sale Marker";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -49,7 +49,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(237, 45);
             this.button2.TabIndex = 0;
-            this.button2.Text = "Local Saving";
+            this.button2.Text = "TGP Local Savings";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
@@ -72,7 +72,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Main";
-            this.Text = "Liquor Management Program";
+            this.Text = "Cochin Bigway Utility Program";
             this.ResumeLayout(false);
 
         }

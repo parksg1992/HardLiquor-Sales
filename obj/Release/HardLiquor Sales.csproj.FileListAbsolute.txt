@@ -18,6 +18,6 @@ C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Release\HardLi
 C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\bin\Release\BouncyCastle.Crypto.dll
 C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\bin\Release\itextsharp.dll
 C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\bin\Release\itextsharp.xml
-C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Release\HardLiquor_Sales.LocalSaving.resources
 C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Release\HardLiquor_Sales.MoreFileToAdd.resources
 C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Release\HardLiquor Sales.csproj.CopyComplete
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Release\HardLiquor_Sales.LocalSavings.resources

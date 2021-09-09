@@ -29,7 +29,7 @@ namespace HardLiquor_Sales
         List<ItemInfo> orderItems = new List<ItemInfo>();
         List<ItemInfo> creditItems = new List<ItemInfo>();
 
-        public LocalSaving() 
+        public LocalSaving()
         {
             InitializeComponent();
             Read();

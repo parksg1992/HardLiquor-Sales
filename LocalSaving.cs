@@ -105,6 +105,7 @@ namespace HardLiquor_Sales
                 ParsePDFFile();
 
                 Find();
+                orderItems.Clear();
             }
         }
 
@@ -186,7 +187,14 @@ namespace HardLiquor_Sales
 
                         idx++;
 
-                        orderItems.Add(temp);
+                        // need to check if it's already in orderItems
+                        // if so, no need to add
+
+                        var sameList = orderItems.Find(x => x.itemOrderNumber == temp.itemOrderNumber);
+                        if (sameList.itemOrderNumber == null)
+                        {
+                            orderItems.Add(temp);
+                        }
 
                         if (pageNum == reader.NumberOfPages && idx == parse.Count() - 1)
                         {

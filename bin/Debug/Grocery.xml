@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<items>
+  <itemInfo item_num= "950873" upc = "6870004505" desc = "DAIRYLAND BUTTER 454G" pk = "50" TGP_srp = "7.29" landed_cost = "290.02"/>
+  <itemInfo item_num= "463786" upc = "5731617343" desc = "C.GOLD GARLIC BUTTER" pk = "18" TGP_srp = "5.49" landed_cost = "68.93"/>  
+  <itemInfo item_num= "618256" upc = "5731615333" desc = "CENTSIBLES BUTTER -Z" pk = "50" TGP_srp = "5.49" landed_cost = "241.93"/>
+  <itemInfo item_num= "652636" upc = "5731609917" desc = "C.GOLD BUTTER -Z" pk = "50" TGP_srp = "6.79" landed_cost = "283.18"/> 
+  <itemInfo item_num= "951046" upc = "6870004506" desc = "D.LAND UNSALTED BUTTER 454GR" pk = "50" TGP_srp = "6.99" landed_cost = "294.76"/>
+  <itemInfo item_num= "401166" upc = "5731601506" desc = "CENT CANOLA PRCHMNT MARG" pk = "36" TGP_srp = "2.69" landed_cost = "56.22"/>
+  <itemInfo item_num= "185660" upc = "5995019100" desc = "BECEL MARGARINE-C" pk = "12" TGP_srp = "9.49" landed_cost = "88.35"/>
+  <itemInfo item_num= "229609" upc = "5731612222" desc = "CO-OP GOLD NON-HYDRO SOFT MARG -C" pk = "12" TGP_srp = "6.29" landed_cost = "53.58"/>
+  <itemInfo item_num= "343053" upc = "5995019010" desc = "BECEL SOFT MARGARINE- C" pk = "24" TGP_srp = "4.89" landed_cost = "90.31"/>
+  <itemInfo item_num= "268011" upc = "5995030010" desc = "I CAN T BELIEVE  MARG-C" pk = "24" TGP_srp = "2.79" landed_cost = "41.42"/>
+  <itemInfo item_num= "2425247" upc = "5995000014" desc = "BECEL MARGARINE AVOCADO" pk = "12" TGP_srp = "9.49" landed_cost = "88.22"/>
+  <itemInfo item_num= "771352" upc = "5995019200" desc = "BECEL MARGARINE -C" pk = "6" TGP_srp = "15.99" Landed_cost = "81.06"/>
+  <itemInfo item_num= "387647" upc = "5995011520" desc = "IMPERIAL 1/4 S MARG - C" pk = "12" TGP_srp = "7.99" Landed_cost = "77.91"/>
+  <itemInfo item_num= "271445" upc = "6820070116" desc = "PARKAY SOFT MARGARINE-C" pk = "12" TGP_srp = "5.99" Landed_cost = "54.73"/>
+  <itemInfo item_num= "980524" upc = "5995012550" desc = "IMPERIAL SOFT MARG - C" pk = "6" TGP_srp = "8.29" Landed_cost = "39.93"/>
+  <itemInfo item_num= "282848" upc = "5731616871" desc = "CENT SOFT MARGARINE -C" pk = "6" TGP_srp = "7.79" Landed_cost = "33.58"/>
+  <itemInfo item_num= "467597" upc = "5731601512" desc = "CENT VEG OIL MARG 1/4 S-C" pk = "12" TGP_srp = "6.99" Landed_cost = "64.33"/>
+  <itemInfo item_num= "6225122" upc = "6810000349" desc = "KR SINGLES SLICES 22S" pk = "24" TGP_srp = "6.99" Landed_cost = "131.33"/>
+<itemInfo item_num= "6225940" upc = "6810000357" desc = "KR SINGLES THICK 28S" pk = "8" TGP_srp = "12.99" Landed_cost = "85.92"/>
+<itemInfo item_num= "6225957" upc = "6810000359" desc = "KR SINGLES SLICES 44 S" pk = "8" TGP_srp = "12.99" Landed_cost = "85.93"/>
+<itemInfo item_num= "6225197" upc = "6810000361" desc = "KR VELVEETA SLICE 22 S" pk = "24" TGP_srp = "6.99" Landed_cost = "131.33"/>
+<itemInfo item_num= "240697" upc = "5731617106" desc = "C.GOLD MRBL CHDR NAT SLC  -C" pk = "12" TGP_srp = "5.79" Landed_cost = "48.57"/>
+<itemInfo item_num= "240747" upc = "5731617107" desc = "C.GOLD MED CHDR NAT SLC-C" pk = "12" TGP_srp = "5.79" Landed_cost = "48.57"/>
+<itemInfo item_num= "240788" upc = "5731617108" desc = "C.GOLD SWISS NAT SLC-C" pk = "12" TGP_srp = "5.79" Landed_cost = "48.53"/>
+<itemInfo item_num= "939421" upc = "6820000495" desc = "CRACKER BARREL MARBLE CHS" pk = "16" TGP_srp = "8.49" Landed_cost = "107.37"/>
+<itemInfo item_num= "939447" upc = "6820000499" desc = "CRACKER BARREL MEDIUM CHD  CHEESE" pk = "16" TGP_srp = "8.49" Landed_cost = "107.37"/>
+<itemInfo item_num= "481143" upc = "6820000647" desc = "CRACKER BARREL MARB NAT   SLICE" pk = "12" TGP_srp = "7.29" Landed_cost = "66.26"/>
+<itemInfo item_num= "481069" upc = "6820000641" desc = "CRACKER BARREL MEDIUM NAT  SLICE" pk = "12" TGP_srp = "7.29" Landed_cost = "66.23"/>
+<itemInfo item_num= "481192" upc = "6820000642" desc = "CRACKER BARREL SWISS NAT   SLICE" pk = "12" TGP_srp = "7.29" Landed_cost = "66.2"/>
+<itemInfo item_num= "6212641" upc = "6820047829" desc = "CRACKER BARREL MED CHS" pk = "12" TGP_srp = "15.99" Landed_cost = "153.33"/>
+<itemInfo item_num= "6208672" upc = "6112010171" desc = "ARMSTRONG PIZZA MOZZ CHSE" pk = "12" TGP_srp = "16.99" Landed_cost = "162.29"/>
+<itemInfo item_num= "6208656" upc = "6112010170" desc = "ARMSTRONG MED CHED CHEESE" pk = "12" TGP_srp = "17.99" Landed_cost = "162.29"/>
+<itemInfo item_num= "6208649" upc = "6112010164" desc = "ARMSTRONG OLD CHED CHEESE" pk = "12" TGP_srp = "17.99" Landed_cost = "162.29"/>
+<itemInfo item_num= "639583" upc = "5731615500" desc = "C.GOLD PIZZA MOZZ CHSE -C" pk = "8" TGP_srp = "12.99" Landed_cost = "85.26"/>
+<itemInfo item_num= "639567" upc = "5731615503" desc = "C.GOLD COLBY CHDR CHSE -C" pk = "8" TGP_srp = "12.99" Landed_cost = "85.15"/>
+<itemInfo item_num= "2447761" upc = "5731618040" desc = "C.GOLD HABANERO CHEDDAR   CHEESE" pk = "8" TGP_srp = "12.99" Landed_cost = "85.03"/>
+<itemInfo item_num= "6208623" upc = "6112010162" desc = "ARMSTRONG MARBLE CHEESE" pk = "12" TGP_srp = "17.99" Landed_cost = "162.29"/>
+<itemInfo item_num= "6208698" upc = "6112010168" desc = "ARMSTRONG MILD CHED CHSE" pk = "12" TGP_srp = "17.99" Landed_cost = "162.29"/>
+<itemInfo item_num= "638452" upc = "5731615501" desc = "C.GOLD MILD CHDR CHSE-C" pk = "8" TGP_srp = "12.99" Landed_cost = "85.15"/>
+<itemInfo item_num= "639484" upc = "5731615505" desc = "C.GOLD MED CHDR CHSE -C" pk = "8" TGP_srp = "12.99" Landed_cost = "85.15"/>
+<itemInfo item_num= "639450" upc = "5731615499" desc = "C.GOLD MARB CHDR CHSE -C" pk = "8" TGP_srp = "12.99" Landed_cost = "85.15"/>
+<itemInfo item_num= "639542" upc = "5731615566" desc = "C.GOLD OLD CHDR CHSE -C" pk = "8" TGP_srp = "12.99" Landed_cost = "85.26"/>
+<itemInfo item_num= "962258" upc = "6970000078" desc = "PILLS PIZZA CRUST-C" pk = "12" TGP_srp = "3.39" Landed_cost = "26.78"/>
+<itemInfo item_num= "341172" upc = "6970005220" desc = "PILLS CRESCENT DINNER ROLLS -C" pk = "12" TGP_srp = "2.99" Landed_cost = "23.84"/>
+<itemInfo item_num= "427823" upc = "6970000005" desc = "PILLSBURY WIENER WRAP  - C" pk = "12" TGP_srp = "2.99" Landed_cost = "23.76"/>
+<itemInfo item_num= "533166" upc = "5731609920" desc = "C.GLD PROC CHSE REG SLICE 16 S-C" pk = "12" TGP_srp = "5.79" Landed_cost = "50.73"/>
+<itemInfo item_num= "533174" upc = "5731609921" desc = "C.GLD PROC CHSE THIN SLIC 24 S-C" pk = "12" TGP_srp = "5.79" Landed_cost = "50.78"/>
+<itemInfo item_num= "157925" upc = "6810001125" desc = "PHILADELPHIA CREAM CHEESE   BRICK" pk = "24" TGP_srp = "5.79" Landed_cost = "114.92"/>
+<itemInfo item_num= "677070" upc = "6810001117" desc = "PHILADELPHIA CREAM CHEESE LT BRICK" pk = "12" TGP_srp = "5.79" Landed_cost = "57.44"/>
+<itemInfo item_num= "938530" upc = "6810089594" desc = "PHILADELPHIA CREAM CHEESE HERB&GARL" pk = "12" TGP_srp = "5.79" Landed_cost = "57.42"/>
+<itemInfo item_num= "724708" upc = "6820088918" desc = "BD CHEESTRINGS CHED 16 S  -C" pk = "9" TGP_srp = "9.29" Landed_cost = "64.19"/>
+<itemInfo item_num= "724674" upc = "6820085824" desc = "BD CHEESTRINGS MARB 16 S  -C" pk = "9" TGP_srp = "9.29" Landed_cost = "64.19"/>
+<itemInfo item_num= "724690" upc = "6820088917" desc = "BD CHEESTRINGS MOZZ 16 S  -C" pk = "9" TGP_srp = "9.29" Landed_cost = "64.19"/>
+<itemInfo item_num= "471359" upc = "6810001477" desc = "PHILADELPHIA DIP HRB/GARL" pk = "12" TGP_srp = "4.79" Landed_cost = "40.54"/>
+<itemInfo item_num= "725747" upc = "6810089384" desc = "PHILADELPHIA DIP FRENCH   ONION" pk = "12" TGP_srp = "4.79" Landed_cost = "40.54"/>
+<itemInfo item_num= "526228" upc = "6810001455" desc = "PHILADELPHIA DIP ONION" pk = "12" TGP_srp = "4.79" Landed_cost = "40.54"/>
+<itemInfo item_num= "397521" upc = "6810001459" desc = "PHILADELPHIA DIP DILL" pk = "12" TGP_srp = "4.79" Landed_cost = "40.54"/>
+<itemInfo item_num= "397984" upc = "6810001465" desc = "PHILADELPHIA DIP HRB/SPC" pk = "12" TGP_srp = "4.79" Landed_cost = "40.54"/>
+<itemInfo item_num= "2450492" upc = "941798693379" desc = "AUNTY S GOLDEN SYRUP" pk = "6" TGP_srp = "5.29" Landed_cost = "19.93"/>
+<itemInfo item_num= "408625" upc = "6609612370" desc = "LACT. GARLIC BUTTER - C" pk = "32" TGP_srp = "3.49" Landed_cost = "69.68"/>
+<itemInfo item_num= "974667" upc = "4127102488" desc = "INT DELIGHT IRISH CREAM-C" pk = "6" TGP_srp = "6.29" Landed_cost = "28.52"/>
+<itemInfo item_num= "973628" upc = "4127102563" desc = "INT DELIGHT    HAZELNUT   -C" pk = "6" TGP_srp = "3.79" Landed_cost = "16.14"/>
+<itemInfo item_num= "973578" upc = "4127102562" desc = "INT DELIGHT    FRH VAN-C" pk = "6" TGP_srp = "3.79" Landed_cost = "16.14"/>
+<itemInfo item_num= "2424943" upc = "4127102863" desc = "INT DELIGHT DOUBLE DBLE" pk = "6" TGP_srp = "6.29" Landed_cost = "28.52"/>
+<itemInfo item_num= "6276646" upc = "5680056124" desc = "INT DELIGHT SEASONAL" pk = "6" TGP_srp = "6.29" Landed_cost = "28.52"/>
+<itemInfo item_num= "974238" upc = "4127101837" desc = "INT DELIGHT    CINNABON-C" pk = "6" TGP_srp = "3.79" Landed_cost = "16.14"/>
+<itemInfo item_num= "973925" upc = "4127102618" desc = "INT DELIGHT    VAN TOFF   CARM-C" pk = "6" TGP_srp = "3.79" Landed_cost = "16.14"/>
+<itemInfo item_num= "973529" upc = "4127102608" desc = "INT DELIGHT    BTTR PECAN -C" pk = "6" TGP_srp = "3.79" Landed_cost = "16.14"/>
+<itemInfo item_num= "973933" upc = "4127101965" desc = "INT DELIGHT    IRISH CRM  -C" pk = "6" TGP_srp = "3.79" Landed_cost = "16.15"/>
+<itemInfo item_num= "974568" upc = "4127102619" desc = "INT DELIGHT FF FREH VAN-C" pk = "6" TGP_srp = "6.29" Landed_cost = "28.55"/>
+<itemInfo item_num= "6276661" upc = "5680056123" desc = "INT DELIGHT OREO" pk = "6" TGP_srp = "6.29" Landed_cost = "28.52"/>
+<itemInfo item_num= "6361158" upc = "5680076087" desc = "INT DELIGHT CARM MACHIATO  946ML" pk = "6" TGP_srp = "0" Landed_cost = "28.37"/>
+
+<itemInfo item_num= "326603" upc = "5731614931" desc = "C.GOLD FCY PCH S&CRM KRNL  CORN-Z" pk = "16" TGP_srp = "3.59" Landed_cost = "41.16"/>
+<itemInfo item_num= "329334" upc = "5731614933" desc = "C.GOLD MIXED VEGETABLES    -Z" pk = "16" TGP_srp = "3.59" Landed_cost = "41.16"/>
+<itemInfo item_num= "732149" upc = "19056961630" desc = "GG SMPLY STM    PEACH/CRM -Z" pk = "12" TGP_srp = "2.69" Landed_cost = "20.65"/>
+<itemInfo item_num= "329300" upc = "5731614932" desc = "C.GOLD PEAS -Z" pk = "16" TGP_srp = "3.59" Landed_cost = "41.16"/>
+<itemInfo item_num= "329375" upc = "5731614930" desc = "C.GOLD KERNEL CORN -Z" pk = "16" TGP_srp = "3.59" Landed_cost = "41.16"/>
+<itemInfo item_num= "453100" upc = "5731617157" desc = "C.GOLD BRUSSEL SPROUTS" pk = "16" TGP_srp = "3.59" Landed_cost = "41.15"/>
+<itemInfo item_num= "979559" upc = "19056942321" desc = "GG WHOLE KERNEL CORN-Z" pk = "16" TGP_srp = "4.59" Landed_cost = "51.77"/>
+<itemInfo item_num= "979583" upc = "19056942327" desc = "GG SWEETLET PEAS BAG-Z" pk = "16" TGP_srp = "4.59" Landed_cost = "51.74"/>
+<itemInfo item_num= "979641" upc = "19056942324" desc = "GG MIXED VEGETABLES BAG-Z" pk = "16" TGP_srp = "4.59" Landed_cost = "51.73"/>
+<itemInfo item_num= "979708" upc = "19056942322" desc = "GG CUT GREEN BEANS  BAG-Z" pk = "16" TGP_srp = "4.59" Landed_cost = "51.74"/>
+<itemInfo item_num= "979633" upc = "19056942326" desc = "GG SUMMER SWEET PEAS -Z" pk = "16" TGP_srp = "4.59" Landed_cost = "51.74"/>
+<itemInfo item_num= "979526" upc = "19056942325" desc = "GG PEACHES & CREAM CORN-Z" pk = "16" TGP_srp = "4.59" Landed_cost = "51.73"/>
+<itemInfo item_num= "450601" upc = "5731617164" desc = "C.GOLD SPINACH-Z" pk = "12" TGP_srp = "4.49" Landed_cost = "38.16"/>
+<itemInfo item_num= "540609" upc = "19056943092" desc = "GG VS ASIAN BLEND" pk = "12" TGP_srp = "4.19" Landed_cost = "33.91"/>
+<itemInfo item_num= "980045" upc = "19056942329" desc = "GG VS BABY BLEND-Z" pk = "12" TGP_srp = "4.19" Landed_cost = "33.9"/>
+<itemInfo item_num= "575068" upc = "5731609469" desc = "CENTS WH KERNEL CORN -Z" pk = "6" TGP_srp = "8.29" Landed_cost = "37.29"/>
+<itemInfo item_num= "575076" upc = "5731609470" desc = "CENTS MIXED VEG -Z" pk = "6" TGP_srp = "8.29" Landed_cost = "37.29"/>
+<itemInfo item_num= "2468437" upc = "5731618234" desc = "C.GOLD SHRED HASH BROWNS  -Z" pk = "12" TGP_srp = "4.69" Landed_cost = "38.28"/>
+<itemInfo item_num= "256446" upc = "19056952142" desc = "GG SMPLY STM SWT PEAS      -Z" pk = "12" TGP_srp = "2.69" Landed_cost = "20.65"/>
+<itemInfo item_num= "711358" upc = "6321106021" desc = "SWANSON MEAT PIE -CHICKEN-Z" pk = "24" TGP_srp = "2.39" Landed_cost = "41.79"/>
+<itemInfo item_num= "711341" upc = "6321106020" desc = "SWANSON MEAT PIE -BEEF-Z" pk = "24" TGP_srp = "2.39" Landed_cost = "41.79"/>
+<itemInfo item_num= "113076" upc = "7100701057" desc = "ELMONT FP BF/BEAN BURRITO" pk = "8" TGP_srp = "8.49" Landed_cost = "43.97"/>
+<itemInfo item_num= "292144" upc = "7111701130" desc = "RESERS BEAN/CHS BURRITOS  -Z" pk = "24" TGP_srp = "1.39" Landed_cost = "16.58"/>
+<itemInfo item_num= "288738" upc = "7111701134" desc = "RESERS BEEF/BEAN BURRITOS  -Z" pk = "24" TGP_srp = "1.39" Landed_cost = "16.58"/>
+<itemInfo item_num= "288076" upc = "7111701135" desc = "RESERS RED HOT BF BURRITO   -Z" pk = "24" TGP_srp = "1.39" Landed_cost = "16.58"/>
+<itemInfo item_num= "113027" upc = "7100706358" desc = "ELMONT BEAN/CHSE BURRITO" pk = "8" TGP_srp = "8.49" Landed_cost = "43.97"/>
+<itemInfo item_num= "790113" upc = "5731614017" desc = "C.GOLD POT/BACON PEROGY-Z" pk = "13" TGP_srp = "2.69" Landed_cost = "28.18"/>
+<itemInfo item_num= "790147" upc = "5731614016" desc = "C.GOLD POT/CHDR PEROGY-Z" pk = "13" TGP_srp = "2.69" Landed_cost = "28.18"/>
+<itemInfo item_num= "284265" upc = "5693670000" desc = "CHEEMO PEROGY POT/CHED SUP/SIZE" pk = "10" TGP_srp = "3.19" Landed_cost = "26.3"/>
+<itemInfo item_num= "342550" upc = "5693669000" desc = "CHEEMO PEROGY BCON/ROMANO  CHEESE" pk = "10" TGP_srp = "3.19" Landed_cost = "26.3"/>
+<itemInfo item_num= "285379" upc = "5693671000" desc = "CHEEMO PEROGY POT/COTT SUP/SIZE" pk = "10" TGP_srp = "3.19" Landed_cost = "26.45"/>
+<itemInfo item_num= "449850" upc = "5693670060" desc = "CHEEMO 3 CHEESE PEROGIES-Z" pk = "10" TGP_srp = "3.19" Landed_cost = "26.3"/>
+<itemInfo item_num= "6245849" upc = "5731619281" desc = "C.GOLD LOADED BKED POTATO PEROGY-Z" pk = "10" TGP_srp = "4.99" Landed_cost = "34.92"/>
+<itemInfo item_num= "514695" upc = "5693666000" desc = "CHEEMO PERGY VARIETY" pk = "6" TGP_srp = "7.99" Landed_cost = "32.38"/>
+<itemInfo item_num= "811521" upc = "5577300080" desc = "MCCAIN DICED HASHBROWNS   -Z" pk = "12" TGP_srp = "2.79" Landed_cost = "29.17"/>
+<itemInfo item_num= "6234991" upc = "5731619059" desc = "C.GOLD DICED HASH BROWNS  -Z" pk = "12" TGP_srp = "3.29" Landed_cost = "23.76"/>
+<itemInfo item_num= "141481" upc = "6618806190" desc = "COOL WHIP  -Z" pk = "24" TGP_srp = "4.69" Landed_cost = "70.28"/>
+<itemInfo item_num= "546093" upc = "6618806160" desc = "COOL WHIP LIGHT  -Z" pk = "24" TGP_srp = "4.69" Landed_cost = "70.19"/>
+<itemInfo item_num= "2486157" upc = "5621025550" desc = "CAVENDISH RS DRV THRU FRY" pk = "12" TGP_srp = "4.19" Landed_cost = "34.19"/>
+<itemInfo item_num= "2422947" upc = "5621025500" desc = "CAVENDISH RS PUB FRIES" pk = "12" TGP_srp = "4.19" Landed_cost = "34.28"/>
+<itemInfo item_num= "724831" upc = "5577302231" desc = "MCCAIN HASHBROWN PATTIES  -Z" pk = "12" TGP_srp = "6.29" Landed_cost = "48.23"/>
+<itemInfo item_num= "989988" upc = "5731616799" desc = "C.GOLD HASH BROWN PATTIES -Z" pk = "12" TGP_srp = "4.99" Landed_cost = "41.58"/>
+<itemInfo item_num= "114777" upc = "5621025460" desc = "CAVENDISH FC H&G WEDGES" pk = "12" TGP_srp = "4.19" Landed_cost = "34.28"/>
+<itemInfo item_num= "316315" upc = "5621025520" desc = "CAVENDISH RS ONION RINGS" pk = "12" TGP_srp = "4.99" Landed_cost = "40.78"/>
+<itemInfo item_num= "812578" upc = "5577300073" desc = "MCCAIN SMILES-Z" pk = "12" TGP_srp = "4.59" Landed_cost = "45.6"/>
+<itemInfo item_num= "812545" upc = "5577300079" desc = "MCCAIN TASTI TATERS -Z" pk = "12" TGP_srp = "4.59" Landed_cost = "45.85"/>
+<itemInfo item_num= "812685" upc = "5577300065" desc = "MCCAIN SUPERSPIRAL -Z" pk = "12" TGP_srp = "4.59" Landed_cost = "45.6"/>
+<itemInfo item_num= "114926" upc = "5577300277" desc = "MCCN SUPRFR SWT POT PLNK  CUT-Z" pk = "12" TGP_srp = "4.59" Landed_cost = "43.38"/>
+<itemInfo item_num= "812677" upc = "5577300077" desc = "MCCAIN SAVOURY WEDGES-Z" pk = "12" TGP_srp = "4.59" Landed_cost = "45.6"/>
+<itemInfo item_num= "812594" upc = "5577300068" desc = "MCCAIN SUPERFRIES CRNKLE  CUT-Z" pk = "12" TGP_srp = "4.99" Landed_cost = "44.11"/>
+<itemInfo item_num= "812586" upc = "5577300069" desc = "MCCAIN SUPERFRIES SRT CT  -Z" pk = "12" TGP_srp = "4.99" Landed_cost = "44.11"/>
+<itemInfo item_num= "421800" upc = "5731602820" desc = "C.GOLD CRINKLE CUT FRIES  -Z" pk = "12" TGP_srp = "3.29" Landed_cost = "23.87"/>
+<itemInfo item_num= "267344" upc = "5731602837" desc = "C.GOLD POTATO NUGGETS-Z" pk = "12" TGP_srp = "3.19" Landed_cost = "23.32"/>
+<itemInfo item_num= "6288385" upc = "5731619649" desc = "C.GOLD X-CRISPY STRHT CUT FRY-Z" pk = "12" TGP_srp = "3.49" Landed_cost = "28.88"/>
+<itemInfo item_num= "171496" upc = "5731602873" desc = "C.GOLD SHOESTRING FRIES-Z" pk = "12" TGP_srp = "3.29" Landed_cost = "23.87"/>
+<itemInfo item_num= "2421576" upc = "5731617809" desc = "C.GOLD STRAIGHT CUT FRIES -Z" pk = "12" TGP_srp = "3.29" Landed_cost = "23.87"/>
+<itemInfo item_num= "6288427" upc = "5731619650" desc = "C.GOLD SKIN ON S/SALT FRY - Z" pk = "12" TGP_srp = "3.49" Landed_cost = "28.88"/>
+<itemInfo item_num= "812743" upc = "5577300087" desc = "MCCAIN SPERFRIES CRINKLE  CUT-Z" pk = "6" TGP_srp = "9.79" Landed_cost = "44.67"/>
+<itemInfo item_num= "812719" upc = "5577300086" desc = "MCCAIN SUPERFRIES ST CUT  -Z" pk = "6" TGP_srp = "9.79" Landed_cost = "44.67"/>
+<itemInfo item_num= "386862" upc = "5731613316" desc = "C.GLD BLK CHRY YGRT I/C-Z" pk = "4" TGP_srp = "7.49" Landed_cost = "21.79"/>
+<itemInfo item_num= "386664" upc = "5731614367" desc = "C.GLD CHOC PNT BTTR -Z" pk = "4" TGP_srp = "6.29" Landed_cost = "20.1"/>
+<itemInfo item_num= "372045" upc = "5731615078" desc = "C.GLD HVNLY HASH I/CRM-Z" pk = "4" TGP_srp = "6.29" Landed_cost = "20.1"/>
+<itemInfo item_num= "617274" upc = "5731615554" desc = "C.GOLD STOON BERRY I/C-Z" pk = "4" TGP_srp = "6.29" Landed_cost = "20.1"/>
+<itemInfo item_num= "372060" upc = "5731615079" desc = "C.GLD CHOC CHIP MINT FUDG I/C-Z" pk = "4" TGP_srp = "6.29" Landed_cost = "20.1"/>
+<itemInfo item_num= "383828" upc = "5731613381" desc = "C.GLD BTRSCTCH CRNCH I/C  -Z" pk = "4" TGP_srp = "6.29" Landed_cost = "20.1"/>
+<itemInfo item_num= "386631" upc = "5731613379" desc = "C.GLD CHRY & CHOC I/C-Z" pk = "4" TGP_srp = "6.29" Landed_cost = "20.1"/>
+<itemInfo item_num= "386797" upc = "5731613376" desc = "C.GLD MAPLE WLNT I/CRM" pk = "4" TGP_srp = "6.29" Landed_cost = "20.1"/>
+<itemInfo item_num= "386839" upc = "5731613373" desc = "C.GLD FDGE SUNDAE I/C-Z" pk = "4" TGP_srp = "6.29" Landed_cost = "20.1"/>
+<itemInfo item_num= "386755" upc = "5731613374" desc = "C.GLD OLD FASH VAN I/C" pk = "4" TGP_srp = "6.29" Landed_cost = "20.1"/>
+<itemInfo item_num= "386854" upc = "5731613314" desc = "C.GLD VANILLA YGRT I/C" pk = "4" TGP_srp = "7.49" Landed_cost = "21.79"/>
+<itemInfo item_num= "386698" upc = "5731613386" desc = "C.GLD COOKIES & CRM" pk = "4" TGP_srp = "6.29" Landed_cost = "20.1"/>
+<itemInfo item_num= "381442" upc = "5731617154" desc = "C.GOLD CHERRY BRY BLND-Z" pk = "12" TGP_srp = "5.29" Landed_cost = "45.63"/>
+<itemInfo item_num= "343673" upc = "5731612164" desc = "C.GOLD BERRY BLEND SUR -Z" pk = "12" TGP_srp = "5.29" Landed_cost = "45.63"/>
+<itemInfo item_num= "151597" upc = "5731613312" desc = "C.GOLD WHL STRWBRY SUR -Z" pk = "12" TGP_srp = "5.29" Landed_cost = "45.63"/>
+<itemInfo item_num= "6238034" upc = "5577300371" desc = "MCCAIN WEDGE S SALT 9-MIN" pk = "12" TGP_srp = "4.59" Landed_cost = "45.51"/>
+<itemInfo item_num= "204727" upc = "5731602880" desc = "C.GOLD BLUBRY SUR -Z" pk = "12" TGP_srp = "5.29" Landed_cost = "45.63"/>
+<itemInfo item_num= "450122" upc = "5731612509" desc = "C.GOLD CRANBERRIES-Z" pk = "12" TGP_srp = "2.99" Landed_cost = "21.35"/>
+<itemInfo item_num= "6236699" upc = "5731618899" desc = "C.GOLD WATERMELON BLEND-Z" pk = "12" TGP_srp = "5.29" Landed_cost = "45.63"/>
+<itemInfo item_num= "470450" upc = "5731602950" desc = "C.GOLD VANILLA I/CRM -Z" pk = "2" TGP_srp = "8.79" Landed_cost = "13.96"/>
+<itemInfo item_num= "475566" upc = "5731602952" desc = "C.GOLD CHOC I/CRM -Z" pk = "2" TGP_srp = "8.79" Landed_cost = "13.96"/>
+<itemInfo item_num= "737163" upc = "5731608700" desc = "C.GOLD CHOC RIPPLE I/CRM  -Z" pk = "2" TGP_srp = "8.79" Landed_cost = "13.96"/>
+<itemInfo item_num= "475723" upc = "5731602953" desc = "C.GOLD NEAPOLITAN I/CRM-Z" pk = "2" TGP_srp = "8.79" Landed_cost = "13.96"/>
+<itemInfo item_num= "574178" upc = "5731611534" desc = "C.GOLD STRAWBRY I/CRM -Z" pk = "2" TGP_srp = "8.79" Landed_cost = "13.96"/>
+<itemInfo item_num= "476903" upc = "5731602954" desc = "C.GOLD BTTERSCTCH RPL I/C -Z" pk = "2" TGP_srp = "8.79" Landed_cost = "13.96"/>
+<itemInfo item_num= "134387" upc = "5500068198" desc = "NEST DSTK VAN DIP 4PKG    -Z" pk = "12" TGP_srp = "7.99" Landed_cost = "72.6"/>
+<itemInfo item_num= "2452936" upc = "5500068196" desc = "NESTLE DRMSTK OREO" pk = "12" TGP_srp = "7.99" Landed_cost = "72.55"/>
+<itemInfo item_num= "6217012" upc = "5500038261" desc = "NESTLE DRMSTK ROLO" pk = "12" TGP_srp = "7.99" Landed_cost = "72.58"/>
+<itemInfo item_num= "942581" upc = "5500091729" desc = "NSTL DRMSTK VAN CARAMEL  I/C-Z" pk = "12" TGP_srp = "7.99" Landed_cost = "72.6"/>
+<itemInfo item_num= "141788" upc = "5731612001" desc = "COOP/CENT VAN I/CR SAND   100ML -Z" pk = "4" TGP_srp = "8.29" Landed_cost = "21.47"/>
+<itemInfo item_num= "618264" upc = "5877933398" desc = "POPSCLE REVELLO BAR 60ML   -Z" pk = "12" TGP_srp = "5.99" Landed_cost = "48.98"/>
+<itemInfo item_num= "142166" upc = "5731611998" desc = "COOP/CENT MINI POPS ASST  50 ML -Z" pk = "4" TGP_srp = "7.79" Landed_cost = "18.59"/>
+<itemInfo item_num= "142083" upc = "5731611997" desc = "COOP/CENT ICE MILK POPS   ASST -Z" pk = "4" TGP_srp = "7.79" Landed_cost = "20.96"/>
+<itemInfo item_num= "731893" upc = "5877939982" desc = "POPSICLE FUDGSICLE 12PK-Z" pk = "12" TGP_srp = "6.29" Landed_cost = "49.25"/>
+<itemInfo item_num= "731919" upc = "5877939983" desc = "POPSCLE CREAMSCLE CRM POP 12PK-Z" pk = "12" TGP_srp = "6.29" Landed_cost = "49.24"/>
+<itemInfo item_num= "353011" upc = "5877977242" desc = "POPSICLE FIRECRACKER I/POPS 50ML-Z" pk = "12" TGP_srp = "6.29" Landed_cost = "48.85"/>
+<itemInfo item_num= "2455202" upc = "5877914085" desc = "POPSICLE DESPICABLE ME" pk = "12" TGP_srp = "5.99" Landed_cost = "48.43"/>
+<itemInfo item_num= "263756" upc = "5877961642" desc = "POPSCLS ORG CHRRY GRPE" pk = "12" TGP_srp = "6.29" Landed_cost = "49.24"/>
+<itemInfo item_num= "2453827" upc = "5877914141" desc = "BREY KLONDIKE REESE CUP" pk = "12" TGP_srp = "7.79" Landed_cost = "61.38"/>
+<itemInfo item_num= "2452993" upc = "5500037890" desc = "MYNRDS FUZZY PEACH POPS" pk = "6" TGP_srp = "7.99" Landed_cost = "38.23"/>
+<itemInfo item_num= "6318596" upc = "5500014115" desc = "DEL MONTE      STRWBERRY" pk = "8" TGP_srp = "8.79" Landed_cost = "50.53"/>
+<itemInfo item_num= "942607" upc = "5500091738" desc = "NESTLE MINI IC SANDWICHES -Z" pk = "6" TGP_srp = "7.49" Landed_cost = "30.95"/>
+<itemInfo item_num= "820951" upc = "5500075312" desc = "NESTLE OREO SANDWICH 125 ML -Z" pk = "8" TGP_srp = "8.29" Landed_cost = "50.17"/>
+<itemInfo item_num= "780353" upc = "5731613224" desc = "C-GOLD MILK CHOC VAN BAR" pk = "8" TGP_srp = "6.99" Landed_cost = "38.45"/>
+<itemInfo item_num= "6318612" upc = "5500014119" desc = "DEL MONTE BERY  N PEACH" pk = "8" TGP_srp = "8.79" Landed_cost = "50.34"/>
+<itemInfo item_num= "708032" upc = "5500037145" desc = "NESTL LIFESAVERS POP" pk = "6" TGP_srp = "7.99" Landed_cost = "38.23"/>
+<itemInfo item_num= "6327191" upc = "5500002249" desc = "DISNEY MICKY   MOUSE SAND" pk = "8" TGP_srp = "8.29" Landed_cost = "50.08"/>
+<itemInfo item_num= "274118" upc = "5500018769" desc = "NSTL MNI DRMSTCK VAN/CRML" pk = "8" TGP_srp = "8.29" Landed_cost = "47.96"/>
+<itemInfo item_num= "274233" upc = "5500018770" desc = "NSTL MNI DRMSTCK VAN/CHOC" pk = "8" TGP_srp = "8.29" Landed_cost = "47.96"/>
+<itemInfo item_num= "422451" upc = "5960006164" desc = "MM ORNG JCE HM SQEZ STYL  -Z" pk = "12" TGP_srp = "2.29" Landed_cost = "20.54"/>
+<itemInfo item_num= "303321" upc = "5960002372" desc = "MM ORANGE JCE  PULP FREE  -Z" pk = "12" TGP_srp = "2.29" Landed_cost = "20.61"/>
+<itemInfo item_num= "422436" upc = "5960006163" desc = "MM OJ CALCIUM & VIT D     -Z" pk = "12" TGP_srp = "2.29" Landed_cost = "20.54"/>
+<itemInfo item_num= "422550" upc = "5960000095" desc = "MM FIVE ALIVE TROP CITRS  -Z" pk = "12" TGP_srp = "2.39" Landed_cost = "20.54"/>
+<itemInfo item_num= "422410" upc = "5960006179" desc = "NESTEA FRZ ICED TEA LMON  -Z" pk = "12" TGP_srp = "1.89" Landed_cost = "15.25"/>
+<itemInfo item_num= "422501" upc = "5960000092" desc = "MM FRZ FIVE ALIVE CITRUS  -Z" pk = "12" TGP_srp = "2.39" Landed_cost = "20.54"/>
+<itemInfo item_num= "422600" upc = "5960006161" desc = "FRTOPIA STRWBRRY PASSION  -Z" pk = "12" TGP_srp = "1.89" Landed_cost = "15.25"/>
+<itemInfo item_num= "422246" upc = "5960006169" desc = "MM FRUIT PUNCH            -Z" pk = "12" TGP_srp = "1.69" Landed_cost = "13.27"/>
+<itemInfo item_num= "230292" upc = "5960000087" desc = "BACARDI PINA COLADA-Z" pk = "12" TGP_srp = "2.99" Landed_cost = "21.76"/>
+<itemInfo item_num= "172478" upc = "5960000080" desc = "BACARDI MIXERS MARGARITA    Z" pk = "12" TGP_srp = "2.99" Landed_cost = "21.76"/>
+<itemInfo item_num= "422337" upc = "5960006176" desc = "MM FRZ LEMONADE 295ML     -Z" pk = "12" TGP_srp = "1.79" Landed_cost = "15.25"/>
+<itemInfo item_num= "303297" upc = "5960002371" desc = "MM ORANGE JCE  ORIGINAL   -Z" pk = "12" TGP_srp = "2.29" Landed_cost = "20.61"/>
+<itemInfo item_num= "422303" upc = "5960006171" desc = "MM FRZ MANGO PUNCH        -Z" pk = "12" TGP_srp = "1.69" Landed_cost = "13.27"/>
+<itemInfo item_num= "422360" upc = "5960006177" desc = "MM PINK LEMONADE 295ML    -Z" pk = "12" TGP_srp = "1.79" Landed_cost = "15.25"/>
+<itemInfo item_num= "422352" upc = "5960006178" desc = "MM LIMEADE 295ML          -Z" pk = "12" TGP_srp = "1.79" Landed_cost = "15.25"/>
+<itemInfo item_num= "422543" upc = "5960000094" desc = "MM FIVE ALIVE PSSION PCH  -Z" pk = "12" TGP_srp = "2.39" Landed_cost = "20.54"/>
+<itemInfo item_num= "422196" upc = "5960006167" desc = "MM BERRY PUNCH            -Z" pk = "12" TGP_srp = "1.69" Landed_cost = "13.27"/>
+<itemInfo item_num= "422253" upc = "5960006170" desc = "MM GRAPE PUNCH 295ML      -Z" pk = "12" TGP_srp = "1.69" Landed_cost = "13.27"/>
+<itemInfo item_num= "422279" upc = "5960006173" desc = "MM ORANGE PUNCH 295ML     -Z" pk = "12" TGP_srp = "1.69" Landed_cost = "13.27"/>
+<itemInfo item_num= "422295" upc = "5960006174" desc = "MM PEACH PUNCH 295ML      -Z" pk = "12" TGP_srp = "1.69" Landed_cost = "13.27"/>
+<itemInfo item_num= "422576" upc = "5960000091" desc = "MM FIVE ALIVE BRRY CTRUS  -Z" pk = "12" TGP_srp = "2.39" Landed_cost = "20.54"/>
+<itemInfo item_num= "6262851" upc = "7192100414" desc = "DELISSIO SINGL ALLDRS PZZ" pk = "8" TGP_srp = "6.99" Landed_cost = "48.14"/>
+<itemInfo item_num= "6262844" upc = "7192100412" desc = "DELISSIO SNGL  PEPP PZZA" pk = "8" TGP_srp = "6.99" Landed_cost = "48.1"/>
+<itemInfo item_num= "6262877" upc = "7192100413" desc = "DELISSIO SINGL MT LOVERS" pk = "8" TGP_srp = "6.99" Landed_cost = "48.11"/>
+<itemInfo item_num= "627596" upc = "6410023802" desc = "EGGO WAFFLES BLUEBRY 8CT  280G-Z" pk = "12" TGP_srp = "3.99" Landed_cost = "35.67"/>
+<itemInfo item_num= "627703" upc = "6410023817" desc = "EGGO WAFFLES BTRMILK 8 CT -Z" pk = "12" TGP_srp = "3.99" Landed_cost = "35.67"/>
+<itemInfo item_num= "627588" upc = "6410023962" desc = "EGGO WAFFLE ORIGINAL 8CT  280G-Z" pk = "24" TGP_srp = "3.99" Landed_cost = "71.31"/>
+<itemInfo item_num= "563023" upc = "6410057484" desc = "EGGO ORIG MINI WAFFLES    -Z" pk = "12" TGP_srp = "3.99" Landed_cost = "35.54"/>
+<itemInfo item_num= "423434" upc = "6905226584" desc = "PIZZA POPS PPRNI & BCN 8  CT-Z" pk = "9" TGP_srp = "7.99" Landed_cost = "54.75"/>
+<itemInfo item_num= "423400" upc = "6905226583" desc = "PIZZA POPS DLX 8 CT" pk = "9" TGP_srp = "7.99" Landed_cost = "54.76"/>
+<itemInfo item_num= "423368" upc = "6905226581" desc = "PIZZA POPS 3 CHSE 8COUNT  -Z" pk = "9" TGP_srp = "7.99" Landed_cost = "54.78"/>
+<itemInfo item_num= "423384" upc = "6905226582" desc = "PIZZA POPS 3 MEAT 8CT     -Z" pk = "9" TGP_srp = "7.99" Landed_cost = "54.76"/>
+<itemInfo item_num= "423483" upc = "6905226585" desc = "PIZZA POPS PPRONI 8CT     -Z" pk = "9" TGP_srp = "7.99" Landed_cost = "54.75"/>
+<itemInfo item_num= "698720" upc = "6905220459" desc = "PB PIZZA POPS 3 MEATS 4CT" pk = "12" TGP_srp = "3.99" Landed_cost = "38.92"/>
+<itemInfo item_num= "698688" upc = "6905220429" desc = "PB PIZZA POPS DELUXE 4CT" pk = "12" TGP_srp = "3.99" Landed_cost = "38.93"/>
+<itemInfo item_num= "667295" upc = "6905240737" desc = "PB PIZZA POPS PEPPERONI 4 CT-Z" pk = "12" TGP_srp = "3.99" Landed_cost = "38.87"/>
+<itemInfo item_num= "698712" upc = "6905220469" desc = "PB PIZZA POPS 3 CHEESES 4 CT -Z" pk = "12" TGP_srp = "3.99" Landed_cost = "38.91"/>
+<itemInfo item_num= "698480" upc = "6905220419" desc = "PB PIZZA POPS PEP/BACON 4CT -Z" pk = "12" TGP_srp = "3.99" Landed_cost = "38.87"/>
+<itemInfo item_num= "2478030" upc = "5833625021" desc = "GIUSEPPE RC DLX PIZZA" pk = "6" TGP_srp = "7.99" Landed_cost = "37.23"/>
+<itemInfo item_num= "2478048" upc = "5833625031" desc = "GIUSEPPE RC PEPP PIZZA" pk = "6" TGP_srp = "7.99" Landed_cost = "37.15"/>
+<itemInfo item_num= "2419521" upc = "5577300302" desc = "MCCAIN PIZZA PCKT CHS 6PK" pk = "8" TGP_srp = "7.99" Landed_cost = "43.52"/>
+<itemInfo item_num= "2419513" upc = "5577300303" desc = "MCCAIN PIZZA PCKT PEP 6PK" pk = "8" TGP_srp = "7.99" Landed_cost = "43.52"/>
+<itemInfo item_num= "6210983" upc = "7192164833" desc = "DELISSIO SC PEPP PIZZA -Z" pk = "12" TGP_srp = "8.99" Landed_cost = "88.94"/>
+<itemInfo item_num= "6210991" upc = "7192164832" desc = "DELISSIO SC   DELUXE   -Z" pk = "12" TGP_srp = "8.99" Landed_cost = "89.09"/>
+<itemInfo item_num= "719039" upc = "7192197360" desc = "DELISSIO PZZRIA PEP PIZZA -Z" pk = "12" TGP_srp = "8.29" Landed_cost = "84.07"/>
+<itemInfo item_num= "719047" upc = "7192129062" desc = "DELISSIO PZZRIA DLX PZZA  -Z" pk = "10" TGP_srp = "8.29" Landed_cost = "70.33"/>
+<itemInfo item_num= "718395" upc = "7192188364" desc = "DELISSIO RC PEPP PIZZA -Z" pk = "12" TGP_srp = "8.29" Landed_cost = "84.76"/>
+<itemInfo item_num= "718148" upc = "7192137344" desc = "DELISSIO RC 3 MEAT PZZA-Z" pk = "12" TGP_srp = "8.29" Landed_cost = "84.84"/>
+<itemInfo item_num= "718429" upc = "7192195129" desc = "DELISSIO RC DELUXE PZZA-Z" pk = "12" TGP_srp = "8.29" Landed_cost = "84.94"/>
+<itemInfo item_num= "718189" upc = "7192157378" desc = "DELISSIO RC 4CHEESE PZZA  -Z" pk = "12" TGP_srp = "8.29" Landed_cost = "84.75"/>
+<itemInfo item_num= "718221" upc = "7192133739" desc = "DELISSIO RC HAWAIIAN" pk = "12" TGP_srp = "8.29" Landed_cost = "84.91"/>
+<itemInfo item_num= "717264" upc = "7192174248" desc = "DELISSIO RC CANADIAN PZA" pk = "12" TGP_srp = "8.29" Landed_cost = "84.9"/>
+<itemInfo item_num= "959262" upc = "6176306016" desc = "HL ENGLISH FISH & CHIPS" pk = "12" TGP_srp = "8.79" Landed_cost = "69.88"/>
+<itemInfo item_num= "475053" upc = "6176304137" desc = "HL CRISPY POTATO CTD FILL -Z" pk = "12" TGP_srp = "10.99" Landed_cost = "87.98"/>
+<itemInfo item_num= "600726" upc = "6176304134" desc = "HL FISH IN TEMPURA BATTER  -Z" pk = "12" TGP_srp = "10.99" Landed_cost = "88.39"/>
+<itemInfo item_num= "959197" upc = "6176306015" desc = "HL ENGLISH FISH N BATTER" pk = "12" TGP_srp = "10.99" Landed_cost = "88.05"/>
+<itemInfo item_num= "736835" upc = "6221815359" desc = "BW BEER BATTER FILLETS" pk = "12" TGP_srp = "9.49" Landed_cost = "80.37"/>
+<itemInfo item_num= "566380" upc = "6221815669" desc = "BW LMN/HRB SEASON FILLETS" pk = "12" TGP_srp = "9.49" Landed_cost = "80.29"/>
+<itemInfo item_num= "6268635" upc = "6221813929" desc = "BLUEWATER BEER BTTR SHIMP" pk = "8" TGP_srp = "9.99" Landed_cost = "53.32"/>
+<itemInfo item_num= "110924" upc = "6221815349" desc = "B WATER POTATO CRNCH FLLT  -Z" pk = "12" TGP_srp = "9.49" Landed_cost = "80.49"/>
+<itemInfo item_num= "6256119" upc = "6221811549" desc = "BW FISH STICKS" pk = "8" TGP_srp = "9.49" Landed_cost = "53.64"/>
+<itemInfo item_num= "544502" upc = "6221815449" desc = "BW FISH BURGER FILLETS" pk = "12" TGP_srp = "9.49" Landed_cost = "80.5"/>
+<itemInfo item_num= "290395" upc = "6321108316" desc = "SWNSN HM FRIED CHICKEN    -Z" pk = "8" TGP_srp = "4.99" Landed_cost = "35.28"/>
+<itemInfo item_num= "290429" upc = "69147911946" desc = "SWNSN HM BCKYRD BBQ DNNR  -Z" pk = "8" TGP_srp = "4.99" Landed_cost = "35.48"/>
+<itemInfo item_num= "290353" upc = "69147911987" desc = "SWNSN HM BUFF STYL CKN    STRPS-Z" pk = "8" TGP_srp = "4.99" Landed_cost = "35.35"/>
+<itemInfo item_num= "502484" upc = "6321106220" desc = "SWNSN REG FRD CHKN DINNER   Z" pk = "12" TGP_srp = "4.59" Landed_cost = "42.61"/>
+<itemInfo item_num= "290411" upc = "6321106502" desc = "SWNSN HM TURKEY DNNR      -Z" pk = "8" TGP_srp = "4.99" Landed_cost = "35.4"/>
+<itemInfo item_num= "481838" upc = "69147911989" desc = "SWNSN HM PUB  BEER BATTR   CKN-Z" pk = "8" TGP_srp = "4.99" Landed_cost = "35.44"/>
+<itemInfo item_num= "290379" upc = "6321106501" desc = "SWNSN HM SALISBRY STEAK   -Z" pk = "8" TGP_srp = "4.99" Landed_cost = "35.39"/>
+<itemInfo item_num= "335026" upc = "6321111917" desc = "SWANSON RIB STY BONELESS PORK DNR-Z" pk = "12" TGP_srp = "4.59" Landed_cost = "42.64"/>
+<itemInfo item_num= "140418" upc = "6321106284" desc = "SWANSON REG TURKEY DINNER -Z" pk = "12" TGP_srp = "4.59" Landed_cost = "42.72"/>
+<itemInfo item_num= "133728" upc = "6321106277" desc = "SWANSON REG SALSBY STK DINNER-Z" pk = "12" TGP_srp = "4.59" Landed_cost = "42.78"/>
+<itemInfo item_num= "886846" upc = "69147911959" desc = "SWANSON MEATLOAF DINNER  -Z" pk = "12" TGP_srp = "4.59" Landed_cost = "42.72"/>
+<itemInfo item_num= "6224562" upc = "6176304225" desc = "HGH LNR BRDED COD FILLETS  -Z" pk = "6" TGP_srp = "16.99" Landed_cost = "73.79"/>
+<itemInfo item_num= "6209977" upc = "3100000371" desc = "MC BOWLS BEEF & BROCCOLI" pk = "8" TGP_srp = "5.49" Landed_cost = "30.96"/>
+<itemInfo item_num= "6209985" upc = "3100000372" desc = "MC BOWLS CHICKEN TERIYAKI" pk = "8" TGP_srp = "5.49" Landed_cost = "30.8"/>
+<itemInfo item_num= "604561" upc = "6945902119" desc = "WONG WING SWEET&SOUR PORK" pk = "12" TGP_srp = "6.79" Landed_cost = "56.85"/>
+<itemInfo item_num= "918334" upc = "6945902113" desc = "WONG WING HONEY GRLC PORK -Z" pk = "12" TGP_srp = "6.79" Landed_cost = "56.85"/>
+<itemInfo item_num= "432880" upc = "6945902114" desc = "WONG WING LEMON CHICKEN   -Z" pk = "12" TGP_srp = "6.79" Landed_cost = "56.85"/>
+<itemInfo item_num= "918391" upc = "6945902127" desc = "WONG WING GEN TAO CHKN-Z" pk = "12" TGP_srp = "6.79" Landed_cost = "56.85"/>
+<itemInfo item_num= "432013" upc = "6945901501" desc = "WONG WING MINI SPR RL VAR -Z" pk = "12" TGP_srp = "6.79" Landed_cost = "56.76"/>
+<itemInfo item_num= "2444867" upc = "5700000079" desc = "CRAVE PLLD PORK & SWT POT" pk = "12" TGP_srp = "5.99" Landed_cost = "50.91"/>
+<itemInfo item_num= "6209860" upc = "5700001079" desc = "CRAVE BUFF CHIK MAC & CHS" pk = "12" TGP_srp = "5.99" Landed_cost = "50.92"/>
+<itemInfo item_num= "482760" upc = "5731612568" desc = "C.GOLD SPAG BOLGNS-Z" pk = "12" TGP_srp = "2.19" Landed_cost = "17.36"/>
+<itemInfo item_num= "482638" upc = "5731612562" desc = "C.GOLD FETT ALFREDO-Z" pk = "12" TGP_srp = "2.19" Landed_cost = "17.36"/>
+<itemInfo item_num= "482695" upc = "5731612564" desc = "C.GOLD LSGN MEAT SCE-Z" pk = "12" TGP_srp = "2.19" Landed_cost = "17.36"/>
+<itemInfo item_num= "482745" upc = "5731612566" desc = "C.GOLD MAC & CHSE-Z" pk = "12" TGP_srp = "2.19" Landed_cost = "17.36"/>
+<itemInfo item_num= "442368" upc = "6044814002" desc = "BASSILIS CHKN LSGNA W CRY SC-Z" pk = "12" TGP_srp = "6.99" Landed_cost = "57.17"/>
+<itemInfo item_num= "656066" upc = "6044817007" desc = "BASSILI S BEST LASAGNA  -Z" pk = "12" TGP_srp = "6.99" Landed_cost = "57.17"/>
+<itemInfo item_num= "918300" upc = "6044812002" desc = "BASSILI S BEST SHEPERDS   PIE-Z" pk = "12" TGP_srp = "6.99" Landed_cost = "57.17"/>
+<itemInfo item_num= "2446391" upc = "69147911991" desc = "SWAN SKLLT ML GARLIC SHMP -Z" pk = "8" TGP_srp = "7.99" Landed_cost = "48.14"/>
+<itemInfo item_num= "2445674" upc = "6670100973" desc = "SWISS CHALET CHKN POT PIE" pk = "6" TGP_srp = "8.99" Landed_cost = "38.15"/>
+<itemInfo item_num= "6342455" upc = "6670101012" desc = "MONTANA S BEEF POT PIE" pk = "6" TGP_srp = "9.99" Landed_cost = "41.64"/>
+<itemInfo item_num= "579300" upc = "6310019940" desc = "TNDRFLKE 9IN PIE SHELLS-Z" pk = "12" TGP_srp = "4.79" Landed_cost = "40.64"/>
+<itemInfo item_num= "566547" upc = "6310019943" desc = "TNDRFLKE TART SHELL 3 S-Z" pk = "12" TGP_srp = "4.69" Landed_cost = "40.44"/>
+<itemInfo item_num= "2480804" upc = "5731618371" desc = "C.GOLD TART SHELLS 30CT   3IN-Z" pk = "8" TGP_srp = "6.79" Landed_cost = "33.07"/>
+<itemInfo item_num= "2476059" upc = "5731618341" desc = "C.GOLD MINI TART SHL 40CT 2IN-Z" pk = "6" TGP_srp = "7.99" Landed_cost = "31.15"/>
+<itemInfo item_num= "501619" upc = "5577330143" desc = "MCCAIN VANILLA CAKE       -Z" pk = "6" TGP_srp = "6.79" Landed_cost = "29.97"/>
+<itemInfo item_num= "6200414" upc = "5577300356" desc = "MCCAIN COOKIES CREME CAKE -Z" pk = "6" TGP_srp = "6.79" Landed_cost = "29.94"/>
+<itemInfo item_num= "6200406" upc = "5577300355" desc = "MCCAIN COCONUT VANILLA    -Z" pk = "6" TGP_srp = "6.79" Landed_cost = "29.94"/>
+<itemInfo item_num= "501593" upc = "5577330142" desc = "MCCAIN CHOCOLATE CAKE     -Z" pk = "6" TGP_srp = "6.79" Landed_cost = "29.97"/>
+<itemInfo item_num= "501601" upc = "5577330160" desc = "MCCAIN MARBLE CAKE        -Z" pk = "6" TGP_srp = "6.79" Landed_cost = "29.97"/>
+
+
+<itemInfo item_num= "899070" upc = "5557710972" desc = "QKR DIPPS RAINBOW CHIP" pk = "12" TGP_srp = "2.49" Landed_cost = "23.57"/>
+<itemInfo item_num= "713438" upc = "6563307470" desc = "NV CRUNCH OATS/HONEY GRAN BAR" pk = "12" TGP_srp = "3.99" Landed_cost = "35.62"/>
+<itemInfo item_num= "208512" upc = "6563312850" desc = "NV TRAIL MIX FRT/NUT BAR" pk = "12" TGP_srp = "3.99" Landed_cost = "35.48"/>
+<itemInfo item_num= "6203236" upc = "6563314701" desc = "NV TRAIL MIX SPE EDIT CHY" pk = "12" TGP_srp = "3.99" Landed_cost = "35.45"/>
+<itemInfo item_num= "6256143" upc = "6563315775" desc = "NV SWT/SLTY PNUT CHWY BAR" pk = "12" TGP_srp = "4.99" Landed_cost = "41.69"/>
+<itemInfo item_num= "6256127" upc = "6563315736" desc = "NV SWT/SLTY DRK CHOC BAR" pk = "12" TGP_srp = "4.99" Landed_cost = "41.6"/>
+<itemInfo item_num= "6256085" upc = "6563315738" desc = "NV SWT/SLTY CASHEW BAR" pk = "12" TGP_srp = "4.99" Landed_cost = "41.69"/>
+<itemInfo item_num= "702845" upc = "76211128201" desc = "SBUCK KCUP P.PLACE 24CT" pk = "4" TGP_srp = "24.99" Landed_cost = "75.58"/>
+<itemInfo item_num= "968032" upc = "6563346532" desc = "NV LUNCHBOX BARS DBL CHOC" pk = "12" TGP_srp = "3.99" Landed_cost = "35.38"/>
+<itemInfo item_num= "797837" upc = "6563345181" desc = "NV LUNCHBOX BARS CHOC CHP" pk = "12" TGP_srp = "3.99" Landed_cost = "35.39"/>
+<itemInfo item_num= "6202907" upc = "6563314604" desc = "NV CRUNCH OATS N DRK CHOC" pk = "12" TGP_srp = "3.99" Landed_cost = "35.62"/>
+<itemInfo item_num= "642892" upc = "6563343759" desc = "NV PROTEIN PNUT ALMD DRK  CHOC" pk = "12" TGP_srp = "4.49" Landed_cost = "39.17"/>
+<itemInfo item_num= "643056" upc = "6563343761" desc = "NV PROTEIN PNUT BTTR DRK  CHOC" pk = "12" TGP_srp = "4.49" Landed_cost = "39.17"/>
+<itemInfo item_num= "899062" upc = "5557710971" desc = "QKR DIPPS CHOC CHIP" pk = "12" TGP_srp = "2.49" Landed_cost = "23.58"/>
+<itemInfo item_num= "899674" upc = "5557710974" desc = "QKR DIPPS PEANUT BTR BLST" pk = "12" TGP_srp = "2.59" Landed_cost = "23.79"/>
+<itemInfo item_num= "898791" upc = "5557710970" desc = "QKR DIPPS CARAMEL NUT" pk = "12" TGP_srp = "2.49" Landed_cost = "23.58"/>
+<itemInfo item_num= "6303820" upc = "5557712011" desc = "QKR CHWY SMOR BARS" pk = "12" TGP_srp = "2.49" Landed_cost = "23.51"/>
+<itemInfo item_num= "6303812" upc = "5557712010" desc = "QKR CHWY CHOC CHP BARS" pk = "12" TGP_srp = "2.49" Landed_cost = "23.51"/>
+<itemInfo item_num= "6303887" upc = "5557712017" desc = "QKR CHWY CRARMEL CHOC" pk = "12" TGP_srp = "2.49" Landed_cost = "23.51"/>
+<itemInfo item_num= "356147" upc = "5557710743" desc = "QKR HARV YGRT STRAW" pk = "12" TGP_srp = "3.59" Landed_cost = "29.29"/>
+<itemInfo item_num= "105148" upc = "6410027302" desc = "KELL NUTRI GRAIN M.BRY" pk = "12" TGP_srp = "4.39" Landed_cost = "37.36"/>
+<itemInfo item_num= "824904" upc = "6410028202" desc = "KELL NUTRI BLUE CEREAL BR 8EA" pk = "12" TGP_srp = "4.39" Landed_cost = "37.37"/>
+<itemInfo item_num= "824631" upc = "6410028402" desc = "KELL NUTRI GRAIN STRAW" pk = "12" TGP_srp = "4.39" Landed_cost = "37.36"/>
+<itemInfo item_num= "968107" upc = "6563346461" desc = "BC ANIM EDIT FRT SNK" pk = "10" TGP_srp = "4.19" Landed_cost = "32.24"/>
+<itemInfo item_num= "338905" upc = "6563343945" desc = "BC SCOOBY DOO SNK" pk = "10" TGP_srp = "4.19" Landed_cost = "32.24"/>
+<itemInfo item_num= "6231211" upc = "6563315395" desc = "GM REESE PUFF TREAT BAR" pk = "12" TGP_srp = "3.99" Landed_cost = "35.38"/>
+<itemInfo item_num= "6301667" upc = "3485622108" desc = "WELCH S FRT SNK MIX GF" pk = "8" TGP_srp = "4.19" Landed_cost = "21.29"/>
+<itemInfo item_num= "968263" upc = "6563346459" desc = "LUCKY CHARMS TREAT BAR" pk = "12" TGP_srp = "3.99" Landed_cost = "35.38"/>
+<itemInfo item_num= "747907" upc = "6563317912" desc = "FRT BY THE FT-RIPN BERRY  GF" pk = "12" TGP_srp = "3.99" Landed_cost = "33.52"/>
+<itemInfo item_num= "2419018" upc = "6563349245" desc = "FRT ROLL UPS TROP TIE DYE" pk = "10" TGP_srp = "3.99" Landed_cost = "27.94"/>
+<itemInfo item_num= "6281158" upc = "6563316357" desc = "GM JOLLY RANCHER FRT ROLL UP" pk = "10" TGP_srp = "3.99" Landed_cost = "27.94"/>
+<itemInfo item_num= "2419026" upc = "6563349246" desc = "FRT ROLL UP BLASTIN BERRY" pk = "10" TGP_srp = "3.99" Landed_cost = "27.94"/>
+<itemInfo item_num= "6268320" upc = "6563315683" desc = "FRT GUSHERS SUPER SOUR" pk = "10" TGP_srp = "3.99" Landed_cost = "27.95"/>
+<itemInfo item_num= "568295" upc = "6563342447" desc = "FRT GUSHERS VARIETY PACK" pk = "10" TGP_srp = "3.99" Landed_cost = "27.94"/>
+<itemInfo item_num= "568303" upc = "6563342448" desc = "FRT GUSHERS GRAPE TROP" pk = "10" TGP_srp = "3.99" Landed_cost = "27.94"/>
+<itemInfo item_num= "230169" upc = "6563346734" desc = "BC KID EDIT FRT SNKS 10EA" pk = "10" TGP_srp = "4.19" Landed_cost = "32.24"/>
+<itemInfo item_num= "6278204" upc = "6410013092" desc = "KELL POPTART STRAWBERRY" pk = "12" TGP_srp = "4.19" Landed_cost = "35.36"/>
+<itemInfo item_num= "6276174" upc = "6410013090" desc = "KELL POPTART SMORES" pk = "12" TGP_srp = "4.19" Landed_cost = "35.36"/>
+<itemInfo item_num= "6278212" upc = "6410013094" desc = "KELL POPTART FRSTD RASP" pk = "12" TGP_srp = "4.19" Landed_cost = "35.36"/>
+<itemInfo item_num= "738112" upc = "6410038900" desc = "KELL R.KRISP SQR ORIG 8 S" pk = "12" TGP_srp = "4.19" Landed_cost = "32.56"/>
+<itemInfo item_num= "6234025" upc = "6410012895" desc = "KELL R.KRISP SQR  BDAY    CAKE" pk = "12" TGP_srp = "4.19" Landed_cost = "32.58"/>
+<itemInfo item_num= "703041" upc = "6433170020" desc = "MR FREEZE REGULAR POPS" pk = "1" TGP_srp = "6.99" Landed_cost = "4.75"/>
+<itemInfo item_num= "703009" upc = "6433170024" desc = "MR. FREEZE NSA FREEZE POP" pk = "1" TGP_srp = "6.49" Landed_cost = "4.26"/>
+<itemInfo item_num= "6224422" upc = "6020001002" desc = "NABOB POD ORG 30CT" pk = "4" TGP_srp = "20.99" Landed_cost = "60.71"/>
+<itemInfo item_num= "468306" upc = "66344760826" desc = "MCCAFE PODS 30CT" pk = "4" TGP_srp = "22.99" Landed_cost = "69.99"/>
+<itemInfo item_num= "115501" upc = "6320911393" desc = "TIM HORT KCUP STEP TEA" pk = "6" TGP_srp = "10.99" Landed_cost = "54.97"/>
+<itemInfo item_num= "6266100" upc = "6320912644" desc = "TIM HORT ORANGE PEKOE TEA" pk = "12" TGP_srp = "7.99" Landed_cost = "62.43"/>
+<itemInfo item_num= "879569" upc = "6840044378" desc = "RED ROSE TEA OP DECAF" pk = "8" TGP_srp = "6.49" Landed_cost = "32.73"/>
+<itemInfo item_num= "879585" upc = "6840044379" desc = "RED ROSE TEA ORG PEKOE" pk = "12" TGP_srp = "6.79" Landed_cost = "51.55"/>
+<itemInfo item_num= "879593" upc = "6840044375" desc = "RED ROSE TEA ORG PEKOE" pk = "4" TGP_srp = "10.99" Landed_cost = "33.86"/>
+<itemInfo item_num= "912394" upc = "7765208222" desc = "STASH TEA HRB  PEPPERMINT" pk = "6" TGP_srp = "4.59" Landed_cost = "16.78"/>
+<itemInfo item_num= "785949" upc = "7765208229" desc = "STASH TEA GRN  PREMIUM" pk = "6" TGP_srp = "4.59" Landed_cost = "16.79"/>
+<itemInfo item_num= "195990" upc = "7017715273" desc = "TWIN TEA EARL  GREY" pk = "6" TGP_srp = "11.99" Landed_cost = "47.16"/>
+<itemInfo item_num= "774828" upc = "7017715279" desc = "TWIN TEA EARL  GREY" pk = "6" TGP_srp = "5.99" Landed_cost = "23.33"/>
+<itemInfo item_num= "117333" upc = "5717402441" desc = "TETLEY TEA GRN HON/LEM    GINSENG" pk = "12" TGP_srp = "4.49" Landed_cost = "36.58"/>
+<itemInfo item_num= "568139" upc = "5717402440" desc = "TETLEY TEA GRN CLASSIC" pk = "12" TGP_srp = "4.49" Landed_cost = "36.58"/>
+<itemInfo item_num= "498816" upc = "5717402010" desc = "TETLEY TEA BLK CHAI" pk = "12" TGP_srp = "4.49" Landed_cost = "36.58"/>
+<itemInfo item_num= "387779" upc = "5717420124" desc = "TETLEY TEA HRB PURE PEPP" pk = "12" TGP_srp = "4.49" Landed_cost = "36.56"/>
+<itemInfo item_num= "6256325" upc = "6320910752" desc = "TIM HORT EARL  GREY TEA" pk = "6" TGP_srp = "4.39" Landed_cost = "17.11"/>
+<itemInfo item_num= "2405611" upc = "6618800469" desc = "MAX HSE INST COFF ORIG" pk = "12" TGP_srp = "6.99" Landed_cost = "63.25"/>
+<itemInfo item_num= "431775" upc = "6810000008" desc = "MAX HSE CAFE FRCH VAN CAL WISE" pk = "8" TGP_srp = "5.49" Landed_cost = "29.58"/>
+<itemInfo item_num= "246868" upc = "5731601013" desc = "C.GOLD INSTANT COFFEE" pk = "12" TGP_srp = "6.79" Landed_cost = "54.49"/>
+<itemInfo item_num= "781039" upc = "6618898784" desc = "TASSIMO MAX HSE HSE BLEND" pk = "5" TGP_srp = "9.99" Landed_cost = "36.76"/>
+<itemInfo item_num= "991331" upc = "6020098773" desc = "TASSIMO NABOB  BRKST BLND" pk = "5" TGP_srp = "10.99" Landed_cost = "40.32"/>
+<itemInfo item_num= "815068" upc = "6618809040" desc = "TASSIMO TIM HORT COFF" pk = "5" TGP_srp = "9.99" Landed_cost = "42.53"/>
+<itemInfo item_num= "830232" upc = "6618800310" desc = "TASSIMO MCCAFE PREM ROAST" pk = "5" TGP_srp = "9.99" Landed_cost = "39.6"/>
+<itemInfo item_num= "2485191" upc = "5731618244" desc = "COOP COFF DECAF FR R PODS 40CT" pk = "4" TGP_srp = "24.99" Landed_cost = "70.21"/>
+<itemInfo item_num= "788992" upc = "6320911275" desc = "TIM HORT KCUP COLU 30CT" pk = "4" TGP_srp = "23.49" Landed_cost = "73.37"/>
+<itemInfo item_num= "731760" upc = "6320911273" desc = "TIM HORT KCUP ORIG 30CT" pk = "4" TGP_srp = "23.49" Landed_cost = "73.37"/>
+<itemInfo item_num= "329128" upc = "6618800392" desc = "MAX HSE POD ORIG 12CT" pk = "6" TGP_srp = "9.99" Landed_cost = "44.1"/>
+<itemInfo item_num= "329953" upc = "6020000164" desc = "NABOB POD 1896 TRAD 12CT" pk = "6" TGP_srp = "10.99" Landed_cost = "48.26"/>
+<itemInfo item_num= "542290" upc = "66344760824" desc = "MCCAFE POD PREM RST 12CT" pk = "6" TGP_srp = "9.99" Landed_cost = "47.51"/>
+<itemInfo item_num= "991240" upc = "6320908388" desc = "TIM HORT KCUP ORIG 12CT" pk = "6" TGP_srp = "10.99" Landed_cost = "54.97"/>
+<itemInfo item_num= "683912" upc = "6020000184" desc = "NABOB GRD 1896 TRAD DECAF BAG" pk = "6" TGP_srp = "8.49" Landed_cost = "42.81"/>
+<itemInfo item_num= "684951" upc = "6020000182" desc = "NABOB GRD COLOMB SUM BAG" pk = "6" TGP_srp = "8.49" Landed_cost = "42.81"/>
+<itemInfo item_num= "683482" upc = "6020000183" desc = "NABOB GRD 1896 TRAD BAG" pk = "6" TGP_srp = "8.49" Landed_cost = "42.81"/>
+<itemInfo item_num= "684522" upc = "6020000175" desc = "NABOB GRD BRKFST BLD BAG" pk = "6" TGP_srp = "8.49" Landed_cost = "42.81"/>
+<itemInfo item_num= "830190" upc = "66344760821" desc = "MCCAFE PREM ROAST BAG" pk = "6" TGP_srp = "8.99" Landed_cost = "40.61"/>
+<itemInfo item_num= "991075" upc = "6320908392" desc = "TIM HORT DECAF COFFEE BAG" pk = "6" TGP_srp = "8.99" Landed_cost = "42.36"/>
+<itemInfo item_num= "760231" upc = "6320909592" desc = "TIM HORT COLUMBIAN BAG" pk = "6" TGP_srp = "8.99" Landed_cost = "42.36"/>
+<itemInfo item_num= "991042" upc = "6320908231" desc = "TIM HORT ORIGINAL BAG" pk = "6" TGP_srp = "8.99" Landed_cost = "42.36"/>
+<itemInfo item_num= "956870" upc = "5500000881" desc = "NESCAFE RICH   INST COFF" pk = "12" TGP_srp = "9.79" Landed_cost = "90.17"/>
+<itemInfo item_num= "6224224" upc = "6320911791" desc = "TIM HORT INST COFF ORIG" pk = "12" TGP_srp = "7.29" Landed_cost = "73.02"/>
+<itemInfo item_num= "2423929" upc = "6320909370" desc = "TIM HORT FR VAN CAPP" pk = "12" TGP_srp = "7.79" Landed_cost = "65.49"/>
+<itemInfo item_num= "939777" upc = "2550000290" desc = "FOLGERS CLASS DECAF" pk = "6" TGP_srp = "12.99" Landed_cost = "64.73"/>
+<itemInfo item_num= "488239" upc = "2550001312" desc = "FOLGERS BLACK SILK COFFE" pk = "6" TGP_srp = "12.99" Landed_cost = "63.38"/>
+<itemInfo item_num= "6224166" upc = "6320911764" desc = "TIM HORT COLUMB R&G" pk = "6" TGP_srp = "20.99" Landed_cost = "89.44"/>
+<itemInfo item_num= "6224174" upc = "6320911763" desc = "TIM HORT DECAF TIN" pk = "6" TGP_srp = "20.99" Landed_cost = "89.44"/>
+<itemInfo item_num= "942110" upc = "6618805092" desc = "MAX HSE GRD ROAST COFFEE" pk = "6" TGP_srp = "10.49" Landed_cost = "55.81"/>
+<itemInfo item_num= "942128" upc = "6618805095" desc = "MAX HSE GRD DK RST COFFEE" pk = "6" TGP_srp = "10.49" Landed_cost = "55.81"/>
+<itemInfo item_num= "830141" upc = "66344760834" desc = "MCCAFE ROAST COFFEE TIN" pk = "6" TGP_srp = "20.49" Landed_cost = "97.54"/>
+<itemInfo item_num= "792523" upc = "6020010776" desc = "NABOB TRADITION FINE GR COFFEE" pk = "6" TGP_srp = "17.49" Landed_cost = "97.65"/>
+<itemInfo item_num= "570622" upc = "5731615519" desc = "CENTS MED GRND COFFEE TIN" pk = "6" TGP_srp = "9.99" Landed_cost = "50.27"/>
+<itemInfo item_num= "667527" upc = "6320907227" desc = "TIM HORT FINE GR COFFEE" pk = "6" TGP_srp = "20.99" Landed_cost = "104.75"/>
+<itemInfo item_num= "507434" upc = "2550000198" desc = "FOLGERS CLASSIC RST COFF" pk = "6" TGP_srp = "12.99" Landed_cost = "63.57"/>
+<itemInfo item_num= "705186" upc = "5000017394" desc = "NESTLE C-MATE REGULAR" pk = "6" TGP_srp = "12.99" Landed_cost = "54.72"/>
+<itemInfo item_num= "491837" upc = "5000036158" desc = "NESTLE C-MATE REGULAR" pk = "12" TGP_srp = "6.29" Landed_cost = "46.9"/>
+<itemInfo item_num= "896514" upc = "5500069726" desc = "NESTLE C-MATE FRENCH VAN" pk = "6" TGP_srp = "6.29" Landed_cost = "23.39"/>
+<itemInfo item_num= "391219" upc = "5731613257" desc = "CENTS COFFEE WHITENER" pk = "6" TGP_srp = "4.29" Landed_cost = "14.27"/>
+<itemInfo item_num= "822668" upc = "5731613256" desc = "C.GOLD COFFEE DELIGHT" pk = "12" TGP_srp = "4.19" Landed_cost = "33.45"/>
+<itemInfo item_num= "822643" upc = "5731613255" desc = "C.GOLD COFFEE DELIGHT" pk = "12" TGP_srp = "2.49" Landed_cost = "20.88"/>
+<itemInfo item_num= "868752" upc = "7017715586" desc = "TWIN TEA VARIT" pk = "6" TGP_srp = "5.99" Landed_cost = "23.33"/>
+<itemInfo item_num= "942193" upc = "5500020024" desc = "NESTLE NESQUIK STRAW 1/3 LESS SUGAR" pk = "12" TGP_srp = "7.29" Landed_cost = "59.7"/>
+<itemInfo item_num= "275115" upc = "5500003131" desc = "NESTLE NESQUIK CHOC SYRUP" pk = "12" TGP_srp = "7.29" Landed_cost = "60.2"/>
+<itemInfo item_num= "784207" upc = "5500013904" desc = "NESTLE NESQUIK 1/3 L/SUGR PWDR" pk = "12" TGP_srp = "7.79" Landed_cost = "59.48"/>
+<itemInfo item_num= "2465466" upc = "5731617880" desc = "CG PURE UNPAST CRM HNY" pk = "12" TGP_srp = "13.99" Landed_cost = "124.46"/>
+<itemInfo item_num= "2465441" upc = "5731617879" desc = "CG PURE UNPAST CRM HNY" pk = "12" TGP_srp = "8.99" Landed_cost = "75.74"/>
+<itemInfo item_num= "836239" upc = "5731616533" desc = "C.GOLD LIQ HNY BEAR" pk = "12" TGP_srp = "7.99" Landed_cost = "67.59"/>
+<itemInfo item_num= "2465425" upc = "5731617876" desc = "CG PURE PAST LIQ HNY SQZ" pk = "12" TGP_srp = "8.99" Landed_cost = "75.74"/>
+<itemInfo item_num= "509257" upc = "5150004473" desc = "SMKR PURE JAM  APP JELLY" pk = "12" TGP_srp = "4.49" Landed_cost = "35.85"/>
+<itemInfo item_num= "509240" upc = "5150004019" desc = "SMKR PURE JAM  BLUEBRY" pk = "12" TGP_srp = "4.49" Landed_cost = "35.85"/>
+<itemInfo item_num= "258426" upc = "5150002592" desc = "SMKR PURE STRAWBRY JAM" pk = "12" TGP_srp = "5.99" Landed_cost = "53.87"/>
+<itemInfo item_num= "509349" upc = "5150002589" desc = "SMKR PURE APRICOT JAM" pk = "12" TGP_srp = "5.99" Landed_cost = "53.87"/>
+<itemInfo item_num= "257691" upc = "5150002590" desc = "SMKR ORANGE MARMALADE" pk = "12" TGP_srp = "6.29" Landed_cost = "53.86"/>
+<itemInfo item_num= "258202" upc = "5150002591" desc = "SMKR PURE RASPBERRY JAM" pk = "12" TGP_srp = "6.29" Landed_cost = "54"/>
+<itemInfo item_num= "2427268" upc = "77344861454" desc = "LAST MTN STRAW SPREAD" pk = "12" TGP_srp = "6.79" Landed_cost = "54.51"/>
+<itemInfo item_num= "2427318" upc = "77344881454" desc = "LAST MTN BLUEBRY SPREAD" pk = "12" TGP_srp = "6.79" Landed_cost = "54.51"/>
+<itemInfo item_num= "2427300" upc = "77344810454" desc = "LAST MTN SKT   SPREAD" pk = "12" TGP_srp = "6.79" Landed_cost = "54.51"/>
+<itemInfo item_num= "440271" upc = "6202000074" desc = "NUTELLA HAZELNUT SPREAD" pk = "15" TGP_srp = "5.79" Landed_cost = "55.13"/>
+<itemInfo item_num= "6267488" upc = "6810090279" desc = "KR CHOC HAZELNUT SPRD" pk = "6" TGP_srp = "6.99" Landed_cost = "36.32"/>
+<itemInfo item_num= "655001" upc = "5150075006" desc = "JIF PEANUT BUTTER CRUNCHY" pk = "8" TGP_srp = "6.99" Landed_cost = "42.75"/>
+<itemInfo item_num= "654822" upc = "5150075005" desc = "JIF PEANUT BUTTER CRMY" pk = "8" TGP_srp = "6.99" Landed_cost = "42.65"/>
+<itemInfo item_num= "2421071" upc = "5731617470" desc = "C.GOLD PEANUT BUTTER CRHY" pk = "12" TGP_srp = "6.29" Landed_cost = "58.87"/>
+<itemInfo item_num= "117911" upc = "5731600688" desc = "C.GOLD PNUT BUTTER LIGHT" pk = "12" TGP_srp = "6.29" Landed_cost = "59.05"/>
+<itemInfo item_num= "2421055" upc = "5731617469" desc = "C.GOLD PNUT BUTTER SMOOTH" pk = "12" TGP_srp = "6.29" Landed_cost = "58.87"/>
+<itemInfo item_num= "6269534" upc = "5731616813" desc = "CG PURE RAW ALMOND BUTTER" pk = "6" TGP_srp = "14.99" Landed_cost = "57.81"/>
+<itemInfo item_num= "673806" upc = "6810008427" desc = "KR PEANUT BUTTER SMOOTH" pk = "6" TGP_srp = "11.99" Landed_cost = "59.15"/>
+<itemInfo item_num= "291286" upc = "6810008424" desc = "KR PEANUT BUTTER SMOOTH" pk = "12" TGP_srp = "7.79" Landed_cost = "77.69"/>
+<itemInfo item_num= "603530" upc = "6810089231" desc = "KR CHEEZ WHIZ REGULAR" pk = "12" TGP_srp = "7.49" Landed_cost = "76.51"/>
+<itemInfo item_num= "603571" upc = "6810089237" desc = "KR CHEEZ WHIZ LIGHT" pk = "12" TGP_srp = "7.49" Landed_cost = "76.51"/>
+<itemInfo item_num= "603605" upc = "6810089235" desc = "KR CHEEZ WHIZ REGULAR" pk = "6" TGP_srp = "9.99" Landed_cost = "52.97"/>
+<itemInfo item_num= "603613" upc = "6810089236" desc = "KR CHEEZ WHIZ LIGHT" pk = "6" TGP_srp = "9.99" Landed_cost = "52.97"/>
+<itemInfo item_num= "391128" upc = "5731601279" desc = "C.GOLD MALLW INST HOT CHC TIN" pk = "12" TGP_srp = "4.59" Landed_cost = "33.61"/>
+<itemInfo item_num= "391367" upc = "5731601278" desc = "C.GOLD REG INST HOT CHOC  TIN" pk = "12" TGP_srp = "4.59" Landed_cost = "33.61"/>
+<itemInfo item_num= "115071" upc = "6320909069" desc = "TIM HORT HOT CHOCOLATE" pk = "12" TGP_srp = "4.59" Landed_cost = "40.65"/>
+<itemInfo item_num= "6341168" upc = "6500011605" desc = "CARN HOT CHOC RICH" pk = "6" TGP_srp = "5.99" Landed_cost = "26.69"/>
+<itemInfo item_num= "452292" upc = "6500047729" desc = "CARN HOT CHOC KCUP 12CT" pk = "6" TGP_srp = "10.99" Landed_cost = "50.61"/>
+<itemInfo item_num= "458356" upc = "6280217846" desc = "LYNCH HOT APLE DRNK MIX 10 S" pk = "12" TGP_srp = "4.19" Landed_cost = "35.37"/>
+<itemInfo item_num= "498519" upc = "5731612532" desc = "C.G 8-12 CUP BASK FLTR200" pk = "12" TGP_srp = "3.99" Landed_cost = "26.52"/>
+<itemInfo item_num= "498394" upc = "5731601028" desc = "C.G 8-12 CUP BASK FLT100" pk = "12" TGP_srp = "2.79" Landed_cost = "16.87"/>
+<itemInfo item_num= "370452" upc = "5543762935" desc = "MELIT BRWN BASK FILTERS" pk = "24" TGP_srp = "3.69" Landed_cost = "47.31"/>
+<itemInfo item_num= "992313" upc = "5731601027" desc = "C.GOLD #6 CONE WHITE BOX" pk = "12" TGP_srp = "2.79" Landed_cost = "18.42"/>
+<itemInfo item_num= "130583" upc = "5731601026" desc = "C.GOLD #4 CONE WHITE BOX" pk = "12" TGP_srp = "2.69" Landed_cost = "16.83"/>
+<itemInfo item_num= "130526" upc = "5731601024" desc = "C.GOLD #2 CONE WHITE BOX" pk = "12" TGP_srp = "2.69" Landed_cost = "16.75"/>
+<itemInfo item_num= "768937" upc = "5150002273" desc = "SMKR BTTRSTCH SUNDAE TOPP" pk = "12" TGP_srp = "3.39" Landed_cost = "25.78"/>
+<itemInfo item_num= "769059" upc = "5150002272" desc = "SMKR CHOC FUDGE SUND TOPP" pk = "12" TGP_srp = "3.39" Landed_cost = "25.78"/>
+<itemInfo item_num= "148809" upc = "5150033658" desc = "SMKR STRAW SUNDAE SYRUP" pk = "12" TGP_srp = "5.29" Landed_cost = "42.76"/>
+<itemInfo item_num= "149682" upc = "5150005195" desc = "SMKR SUNDAE CARAMEL SYRUP" pk = "12" TGP_srp = "5.29" Landed_cost = "42.74"/>
+<itemInfo item_num= "149633" upc = "5150005196" desc = "SMKR SUNDAE CHOC SYRUP" pk = "12" TGP_srp = "5.29" Landed_cost = "42.74"/>
+<itemInfo item_num= "209130" upc = "5731614589" desc = "CO-OP GOLD SUGAR CONES" pk = "12" TGP_srp = "3.49" Landed_cost = "24.49"/>
+<itemInfo item_num= "892992" upc = "5731613435" desc = "CO-OP GOLD WAFFLE CONES" pk = "12" TGP_srp = "4.99" Landed_cost = "35.5"/>
+<itemInfo item_num= "209619" upc = "5731614587" desc = "CO-OP GOLD ICE CREAM CUPS" pk = "12" TGP_srp = "2.69" Landed_cost = "18.66"/>
+<itemInfo item_num= "209148" upc = "5731614588" desc = "CO-OP GOLD ICE CRM CONES" pk = "12" TGP_srp = "2.69" Landed_cost = "18.66"/>
+<itemInfo item_num= "892992" upc = "5731613435" desc = "CO-OP GOLD WAFFLE CONES" pk = "12" TGP_srp = "4.99" Landed_cost = "35.50"/>
+<itemInfo item_num= "209619" upc = "5731614587" desc = "CO-OP GOLD ICE CREAM CUPS" pk = "12" TGP_srp = "2.69" Landed_cost = "18.66"/>
+<itemInfo item_num= "350892" upc = "6414400412" desc = "PAM NATURAL NO STK SPRY" pk = "12" TGP_srp = "6.49" Landed_cost = "52.95"/>
+<itemInfo item_num= "138347" upc = "6414404354" desc = "PAM BUTTER FLAVOUR SPRY" pk = "12" TGP_srp = "6.49" Landed_cost = "52.81"/>
+<itemInfo item_num= "138339" upc = "6414404525" desc = "PAM OLIVE OIL SPRAY" pk = "12" TGP_srp = "6.49" Landed_cost = "52.81"/>
+<itemInfo item_num= "2420685" upc = "5731617780" desc = "CG PURE ORGNC RFND CCNT   OIL" pk = "6" TGP_srp = "9.79" Landed_cost = "39.48"/>
+<itemInfo item_num= "476515" upc = "6810004345" desc = "KR SC BALSAMIC VINAIGRETT" pk = "10" TGP_srp = "4.19" Landed_cost = "34.63"/>
+<itemInfo item_num= "566893" upc = "5731614495" desc = "CO-OP GOLD CANOLA OIL" pk = "8" TGP_srp = "3.99" Landed_cost = "20.51"/>
+<itemInfo item_num= "566943" upc = "5731611858" desc = "CO-OP GOLD CANOLA OIL" pk = "6" TGP_srp = "5.49" Landed_cost = "23.28"/>
+<itemInfo item_num= "2428902" upc = "7430510132" desc = "BRAGG  APPLE CIDER VINGAR" pk = "12" TGP_srp = "9.49" Landed_cost = "76.21"/>
+<itemInfo item_num= "704833" upc = "5731617448" desc = "C.GOLD PURE APPLE CIDER   VINEGAR" pk = "12" TGP_srp = "2.89" Landed_cost = "23.18"/>
+<itemInfo item_num= "157966" upc = "5731602071" desc = "C.GOLD PURE WHITE VINEGAR" pk = "12" TGP_srp = "2.19" Landed_cost = "16.5"/>
+<itemInfo item_num= "816892" upc = "5731615862" desc = "CENTS TRAD OLIVE OIL" pk = "12" TGP_srp = "8.49" Landed_cost = "70.15"/>
+<itemInfo item_num= "444091" upc = "4179000210" desc = "BERTOLLI RICH TASTE EV OO" pk = "12" TGP_srp = "11.99" Landed_cost = "106.65"/>
+<itemInfo item_num= "444109" upc = "4179000430" desc = "BERTOLLI EX LITE OLVE OIL" pk = "12" TGP_srp = "12.49" Landed_cost = "106.51"/>
+<itemInfo item_num= "259788" upc = "5731617209" desc = "C.GOLD RED WINE VINEGAR" pk = "12" TGP_srp = "3.39" Landed_cost = "24.95"/>
+<itemInfo item_num= "2486686" upc = "5731618364" desc = "C.GOLD WHITE WINE VINEGAR" pk = "12" TGP_srp = "3.39" Landed_cost = "24.95"/>
+<itemInfo item_num= "901918" upc = "5731611608" desc = "C.GOLD 1000 ISLAND DRESG" pk = "6" TGP_srp = "3.59" Landed_cost = "15.65"/>
+<itemInfo item_num= "901934" upc = "5731611610" desc = "C.GOLD COLESLAW DRESG" pk = "6" TGP_srp = "3.59" Landed_cost = "15.66"/>
+<itemInfo item_num= "901215" upc = "5731611604" desc = "C.GOLD RANCH SALAD DRESG" pk = "6" TGP_srp = "3.49" Landed_cost = "15.64"/>
+<itemInfo item_num= "6271142" upc = "5731619528" desc = "C.GOLD VEGAN   RANCH      SALAD" pk = "6" TGP_srp = "5.29" Landed_cost = "20.89"/>
+<itemInfo item_num= "264333" upc = "5550001558" desc = "HV GREEK TZATZ GF" pk = "6" TGP_srp = "4.99" Landed_cost = "19.69"/>
+<itemInfo item_num= "491357" upc = "6840066270" desc = "HLMN MAYO LIGHT" pk = "10" TGP_srp = "6.49" Landed_cost = "52.89"/>
+<itemInfo item_num= "491332" upc = "6840066260" desc = "HLMN MAYO REAL" pk = "10" TGP_srp = "6.49" Landed_cost = "52.82"/>
+<itemInfo item_num= "248435" upc = "6810004974" desc = "KR MIRACLE WHIP SQUEEZE" pk = "12" TGP_srp = "5.99" Landed_cost = "48.59"/>
+<itemInfo item_num= "248542" upc = "6810004976" desc = "KR MAYO SQUEEZE" pk = "12" TGP_srp = "5.99" Landed_cost = "50.23"/>
+<itemInfo item_num= "419077" upc = "6840065702" desc = "HLMN MAYO ORG  GF" pk = "6" TGP_srp = "8.79" Landed_cost = "36.73"/>
+<itemInfo item_num= "313569" upc = "6810004524" desc = "KR MIRACLE WHIP DRSG" pk = "6" TGP_srp = "10.49" Landed_cost = "49.11"/>
+<itemInfo item_num= "144972" upc = "6810004862" desc = "KR MIRACLE WHIP" pk = "12" TGP_srp = "6.79" Landed_cost = "59.91"/>
+<itemInfo item_num= "144998" upc = "6810004863" desc = "KR MIRACLE WHIP CALWISE" pk = "12" TGP_srp = "6.79" Landed_cost = "60.03"/>
+<itemInfo item_num= "725069" upc = "6810004769" desc = "KR SANDWICH SPREAD" pk = "12" TGP_srp = "5.29" Landed_cost = "39.2"/>
+<itemInfo item_num= "784058" upc = "6810004044" desc = "KR MAYONNAISE" pk = "6" TGP_srp = "9.49" Landed_cost = "44.05"/>
+<itemInfo item_num= "491449" upc = "6840061620" desc = "HLMN MAYO SQUEEZE" pk = "8" TGP_srp = "6.49" Landed_cost = "42.1"/>
+<itemInfo item_num= "491456" upc = "6840061660" desc = "HLMN MAYO BIG SQZ LITE" pk = "8" TGP_srp = "6.49" Landed_cost = "42.17"/>
+<itemInfo item_num= "2449551" upc = "5700000093" desc = "HZ SER GOOD MAYO" pk = "12" TGP_srp = "5.99" Landed_cost = "49.82"/>
+<itemInfo item_num= "2449577" upc = "5700000095" desc = "HZ SER GOOD MAYO SQUEEZE" pk = "8" TGP_srp = "5.99" Landed_cost = "32.72"/>
+<itemInfo item_num= "6265821" upc = "6401312020" desc = "ALLEN S CLEANING VINEGAR  2X" pk = "6" TGP_srp = "5.49" Landed_cost = "23.23"/>
+<itemInfo item_num= "6277040" upc = "6401312013" desc = "ALLEN S PICKLING VINEGAR  4L" pk = "6" TGP_srp = "5.99" Landed_cost = "25.2"/>
+<itemInfo item_num= "155127" upc = "5731602079" desc = "C.GOLD PURE WHITE VINEGAR" pk = "6" TGP_srp = "5.29" Landed_cost = "22.4"/>
+<itemInfo item_num= "957563" upc = "5150025350" desc = "CRISCO VEGETABLE OIL" pk = "9" TGP_srp = "7.49" Landed_cost = "50.61"/>
+<itemInfo item_num= "957555" upc = "5150025355" desc = "CRISCO CANOLA OIL" pk = "9" TGP_srp = "7.49" Landed_cost = "50.58"/>
+<itemInfo item_num= "673244" upc = "5731601534" desc = "CO-OP GOLD CANOLA OIL 3L" pk = "4" TGP_srp = "14.49" Landed_cost = "43.11"/>
+<itemInfo item_num= "672741" upc = "5731601511" desc = "CENTSIBLES CANOLA OIL 3L" pk = "4" TGP_srp = "10.99" Landed_cost = "36.48"/>
+<itemInfo item_num= "709626" upc = "6780000373" desc = "UNICO SLICED BLK OLIVES" pk = "24" TGP_srp = "3.29" Landed_cost = "49.16"/>
+<itemInfo item_num= "572503" upc = "6780000370" desc = "UNICO SLICED   BLK OLIVES" pk = "24" TGP_srp = "1.99" Landed_cost = "27"/>
+<itemInfo item_num= "423665" upc = "5731602025" desc = "C.GOLD STUFF MANZ OLIVES" pk = "12" TGP_srp = "3.99" Landed_cost = "29.94"/>
+<itemInfo item_num= "475194" upc = "5731612585" desc = "C.GOLD SLICED OLIVES" pk = "12" TGP_srp = "2.69" Landed_cost = "20.15"/>
+<itemInfo item_num= "298836" upc = "5900000693" desc = "MCL SWT ONIONS KENT JAR" pk = "12" TGP_srp = "4.99" Landed_cost = "40.25"/>
+<itemInfo item_num= "318246" upc = "5880745960" desc = "AYL FCY WH ROSEBUD BEETS" pk = "12" TGP_srp = "2.49" Landed_cost = "19.72"/>
+<itemInfo item_num= "812628" upc = "5731612854" desc = "COOP GLD PICKL SLIC BEETS" pk = "12" TGP_srp = "3.49" Landed_cost = "28.76"/>
+<itemInfo item_num= "466300" upc = "5900000454" desc = "BICK SLICE PICKLD BEETS" pk = "12" TGP_srp = "4.89" Landed_cost = "39.77"/>
+<itemInfo item_num= "150763" upc = "5731611846" desc = "COOP GLD HOT PEPPER RINGS" pk = "12" TGP_srp = "3.79" Landed_cost = "28.62"/>
+<itemInfo item_num= "657858" upc = "7321400117" desc = "MEZ CALIF HOT CHILI PEPPR" pk = "6" TGP_srp = "5.29" Landed_cost = "18.88"/>
+<itemInfo item_num= "6271159" upc = "5731619541" desc = "CG PURE DILL PICKLE GARL" pk = "12" TGP_srp = "6.79" Landed_cost = "60.6"/>
+<itemInfo item_num= "6275150" upc = "5731619542" desc = "CG PURE DILL PICKLE" pk = "12" TGP_srp = "6.79" Landed_cost = "60.7"/>
+<itemInfo item_num= "209452" upc = "5731602052" desc = "C.GOLD SWT MIX PICKLES" pk = "12" TGP_srp = "5.29" Landed_cost = "44.36"/>
+<itemInfo item_num= "243881" upc = "5731602047" desc = "COOP GLD BRD/BTR PICKLES" pk = "12" TGP_srp = "5.29" Landed_cost = "44.26"/>
+<itemInfo item_num= "401927" upc = "5731602036" desc = "COOP GLD POLSKIE OGORKI" pk = "12" TGP_srp = "4.49" Landed_cost = "38.21"/>
+<itemInfo item_num= "436485" upc = "5900000477" desc = "BICKS SWEET GREEN RELISH" pk = "12" TGP_srp = "3.19" Landed_cost = "24.33"/>
+<itemInfo item_num= "637587" upc = "69147950150" desc = "VLASIC KOSHER BABY PICKLE" pk = "12" TGP_srp = "6.29" Landed_cost = "49.49"/>
+<itemInfo item_num= "656157" upc = "83396800006" desc = "M & S EXTREME BEANS GARL  DILL" pk = "12" TGP_srp = "7.99" Landed_cost = "65.68"/>
+<itemInfo item_num= "828194" upc = "5731613332" desc = "C.GOLD WINE SAUERKRAUT GF" pk = "12" TGP_srp = "4.89" Landed_cost = "39.58"/>
+<itemInfo item_num= "137224" upc = "5900000423" desc = "BICK WHLE PICKLE NO GRLC" pk = "12" TGP_srp = "5.49" Landed_cost = "47.28"/>
+<itemInfo item_num= "137943" upc = "5900000424" desc = "BICK POLSKIE OGORKI DILL" pk = "12" TGP_srp = "5.49" Landed_cost = "47.28"/>
+<itemInfo item_num= "297713" upc = "5900000430" desc = "BICK HAMBRGR SLICE W/GRLC" pk = "12" TGP_srp = "5.49" Landed_cost = "47.28"/>
+<itemInfo item_num= "162313" upc = "5900000491" desc = "BICK SWEET MIX PICKLES" pk = "12" TGP_srp = "6.29" Landed_cost = "55.88"/>
+<itemInfo item_num= "136747" upc = "5900000422" desc = "BICK WHLE PICKLE W/GARLIC" pk = "12" TGP_srp = "5.49" Landed_cost = "47.3"/>
+<itemInfo item_num= "243618" upc = "5731602086" desc = "COOP GLD BABY DILL W/GRLC" pk = "12" TGP_srp = "5.29" Landed_cost = "44.16"/>
+<itemInfo item_num= "477570" upc = "6810089103" desc = "BULLS EYE BBQ OLD/HICK    SCE" pk = "10" TGP_srp = "4.59" Landed_cost = "34.65"/>
+<itemInfo item_num= "477596" upc = "6810089104" desc = "BULLS EYE BBQ GRILL ON/GR" pk = "10" TGP_srp = "4.59" Landed_cost = "34.67"/>
+<itemInfo item_num= "477521" upc = "6810089102" desc = "BULLS EYE BBQ ORIG SAUCE" pk = "10" TGP_srp = "4.59" Landed_cost = "34.65"/>
+<itemInfo item_num= "477588" upc = "6810089106" desc = "BULLS EYE BBQ  STKHSE SC" pk = "10" TGP_srp = "4.59" Landed_cost = "34.56"/>
+<itemInfo item_num= "477679" upc = "6810089100" desc = "BULLS EYE BBQ HON/GRLC SC" pk = "10" TGP_srp = "4.59" Landed_cost = "34.66"/>
+<itemInfo item_num= "477695" upc = "6810089076" desc = "BULLS EYE BBQ CHKN/RIB SC" pk = "10" TGP_srp = "4.59" Landed_cost = "34.67"/>
+<itemInfo item_num= "477562" upc = "6810089107" desc = "BULLS EYE BBQ SWT/STCKY   SAC" pk = "10" TGP_srp = "4.59" Landed_cost = "34.64"/>
+<itemInfo item_num= "477646" upc = "6810089105" desc = "BULLS EYE BBQ CHIPOTLE SC" pk = "10" TGP_srp = "4.59" Landed_cost = "34.65"/>
+<itemInfo item_num= "6256168" upc = "5731619070" desc = "CG HORSERADISH" pk = "12" TGP_srp = "3.39" Landed_cost = "24.15"/>
+<itemInfo item_num= "475996" upc = "5900000624" desc = "WOODMANS CRMY  HORSERAD" pk = "12" TGP_srp = "4.29" Landed_cost = "29.74"/>
+<itemInfo item_num= "292557" upc = "5731612143" desc = "CG SEAFOOD SCE  SPICY" pk = "12" TGP_srp = "3.19" Landed_cost = "19.34"/>
+<itemInfo item_num= "990853" upc = "5731611773" desc = "CG SEAFOOD SCE" pk = "12" TGP_srp = "3.19" Landed_cost = "19.34"/>
+<itemInfo item_num= "248716" upc = "6810000312" desc = "KR TARTAR SCE  SQZ" pk = "12" TGP_srp = "4.39" Landed_cost = "35.8"/>
+<itemInfo item_num= "282020" upc = "1121000003" desc = "MCILHENNY TABASCO SAUCE" pk = "24" TGP_srp = "3.99" Landed_cost = "64.7"/>
+<itemInfo item_num= "411280" upc = "5731612333" desc = "CG TARTAR SACE" pk = "12" TGP_srp = "3.79" Landed_cost = "24.99"/>
+<itemInfo item_num= "292409" upc = "5700000913" desc = "L&P WORCES SCE" pk = "12" TGP_srp = "3.79" Landed_cost = "30.47"/>
+<itemInfo item_num= "235457" upc = "5900000342" desc = "BICKS SQZ SWT RELISH BITS" pk = "12" TGP_srp = "4.49" Landed_cost = "36.2"/>
+<itemInfo item_num= "690230" upc = "5900000499" desc = "BICK SAND SAVR YUM YUMS" pk = "12" TGP_srp = "4.99" Landed_cost = "41.68"/>
+<itemInfo item_num= "2458891" upc = "62803930200" desc = "CATTLEBOYZ CHIPOL MPL BBQ SCE" pk = "6" TGP_srp = "7.79" Landed_cost = "31.2"/>
+<itemInfo item_num= "2458875" upc = "62803910201" desc = "CATTLEBOYZ BBQ SCE" pk = "6" TGP_srp = "7.79" Landed_cost = "31.2"/>
+<itemInfo item_num= "916015" upc = "5620094201" desc = "FRNKS RH HONEY GARLIC" pk = "12" TGP_srp = "6.29" Landed_cost = "51.73"/>
+<itemInfo item_num= "365288" upc = "5620083923" desc = "FRNKS RH CHILI" pk = "12" TGP_srp = "5.99" Landed_cost = "51.59"/>
+<itemInfo item_num= "613026" upc = "5620080502" desc = "FRNKS RH ORIG" pk = "12" TGP_srp = "5.99" Landed_cost = "51.59"/>
+<itemInfo item_num= "181099" upc = "5700000361" desc = "HZ CHILI SAUCE" pk = "12" TGP_srp = "6.29" Landed_cost = "52.21"/>
+<itemInfo item_num= "308973" upc = "5700000940" desc = "HP SAUCE ORIG" pk = "12" TGP_srp = "6.99" Landed_cost = "57.63"/>
+<itemInfo item_num= "138917" upc = "6228717011" desc = "A1 ORIG STEAK  SAUCE" pk = "12" TGP_srp = "6.79" Landed_cost = "52.22"/>
+<itemInfo item_num= "198119" upc = "73762800100" desc = "THAI FISH SAUCE" pk = "12" TGP_srp = "6.29" Landed_cost = "48.54"/>
+<itemInfo item_num= "122036" upc = "6620001016" desc = "LGRLL TERIYAKI MARINADE" pk = "6" TGP_srp = "4.69" Landed_cost = "18.07"/>
+<itemInfo item_num= "188490" upc = "6620001828" desc = "LA GRILLE RUB  MONT CHICK" pk = "8" TGP_srp = "6.99" Landed_cost = "35.52"/>
+<itemInfo item_num= "477349" upc = "6810007855" desc = "KR GARLIC BBQ SAUCE" pk = "10" TGP_srp = "3.49" Landed_cost = "28.68"/>
+<itemInfo item_num= "477414" upc = "6810007837" desc = "KR X/RICH ORIG BBQ SAUCE" pk = "10" TGP_srp = "3.49" Landed_cost = "28.7"/>
+<itemInfo item_num= "477430" upc = "6810007829" desc = "KR BROWN SUGAR BBQ SAUCE" pk = "10" TGP_srp = "3.49" Landed_cost = "28.72"/>
+<itemInfo item_num= "477315" upc = "6810007853" desc = "KR HICKORY BBQ SAUCE" pk = "10" TGP_srp = "3.49" Landed_cost = "28.68"/>
+<itemInfo item_num= "477356" upc = "6810007858" desc = "KR CHICKN N RIB BBQ SAUCE" pk = "10" TGP_srp = "3.49" Landed_cost = "28.72"/>
+<itemInfo item_num= "477299" upc = "6810007852" desc = "KR ORIGINAL BBQ SAUCE" pk = "10" TGP_srp = "3.49" Landed_cost = "28.69"/>
+<itemInfo item_num= "828913" upc = "5731616145" desc = "C.GOLD MUSTARD SQUEEZE" pk = "12" TGP_srp = "3.69" Landed_cost = "28.61"/>
+<itemInfo item_num= "835322" upc = "5731616147" desc = "C.GOLD MUSTARD SQUEEZE" pk = "12" TGP_srp = "2.19" Landed_cost = "14.53"/>
+<itemInfo item_num= "268250" upc = "5620082855" desc = "FRCHS YELLOW   MUSTARD    SQZ" pk = "12" TGP_srp = "4.39" Landed_cost = "35.18"/>
+<itemInfo item_num= "996991" upc = "5620076217" desc = "FRCHS PREP SQZ MUSTARD" pk = "16" TGP_srp = "3.49" Landed_cost = "37.07"/>
+<itemInfo item_num= "997122" upc = "5620076227" desc = "FRCHS DIJON MUSTARD SQZE" pk = "12" TGP_srp = "3.79" Landed_cost = "32.24"/>
+<itemInfo item_num= "997163" upc = "5620076228" desc = "FRCHS HONEY MUSTARD SQZE" pk = "12" TGP_srp = "3.79" Landed_cost = "32.27"/>
+<itemInfo item_num= "267450" upc = "4364620128" desc = "MAILLE DIJON MUSTARD" pk = "12" TGP_srp = "3.99" Landed_cost = "31.6"/>
+<itemInfo item_num= "558353" upc = "2446306316" desc = "HF SRIRACHA CHILI SAUCE" pk = "12" TGP_srp = "5.29" Landed_cost = "43.24"/>
+<itemInfo item_num= "2449536" upc = "6810000311" desc = "HZ AIOLI HOT&SPICY" pk = "8" TGP_srp = "4.69" Landed_cost = "26.67"/>
+<itemInfo item_num= "2449544" upc = "6810000313" desc = "HZ BURGER SAUCE" pk = "8" TGP_srp = "4.69" Landed_cost = "26.69"/>
+<itemInfo item_num= "2449528" upc = "6810000310" desc = "HZ AIOLI GARLIC" pk = "8" TGP_srp = "4.69" Landed_cost = "26.67"/>
+<itemInfo item_num= "6277107" upc = "5731619703" desc = "CG PURE HOT DOG RELISH" pk = "12" TGP_srp = "2.99" Landed_cost = "26.88"/>
+<itemInfo item_num= "6277032" upc = "5731619701" desc = "CG PURE SWT GRN RELISH" pk = "12" TGP_srp = "2.99" Landed_cost = "26.88"/>
+<itemInfo item_num= "909655" upc = "5731614037" desc = "C.GOLD KETCHUP SQUEEZE" pk = "12" TGP_srp = "3.39" Landed_cost = "33.38"/>
+<itemInfo item_num= "309724" upc = "5731609764" desc = "C.GOLD KETCHUP" pk = "12" TGP_srp = "3.39" Landed_cost = "33.91"/>
+<itemInfo item_num= "2448967" upc = "5731615065" desc = "C. GOLD KETCHUP" pk = "12" TGP_srp = "6.79" Landed_cost = "57.19"/>
+<itemInfo item_num= "488296" upc = "5700000299" desc = "HZ KETCHUP" pk = "12" TGP_srp = "5.29" Landed_cost = "53.3"/>
+<itemInfo item_num= "932053" upc = "5700006308" desc = "HZ KETCHUP FAMILY" pk = "12" TGP_srp = "6.79" Landed_cost = "72.06"/>
+<itemInfo item_num= "932061" upc = "5700061328" desc = "HZ KETCHUP TWIN PACK" pk = "6" TGP_srp = "12.49" Landed_cost = "59.75"/>
+<itemInfo item_num= "748392" upc = "5700003857" desc = "HZ KETCHUP NO SUGAR ADDED" pk = "12" TGP_srp = "5.29" Landed_cost = "52.96"/>
+<itemInfo item_num= "142240" upc = "5700071253" desc = "HZ KETCHUP ORG EASY SQZ" pk = "12" TGP_srp = "8.79" Landed_cost = "78.2"/>
+<itemInfo item_num= "277947" upc = "5700001316" desc = "HZ EASY SQUEEZE KETCHUP" pk = "12" TGP_srp = "5.29" Landed_cost = "52.82"/>
+<itemInfo item_num= "871533" upc = "5620092645" desc = "FRCHS KETCHUP SQUEEZE" pk = "12" TGP_srp = "4.99" Landed_cost = "43.7"/>
+
+
+
+
+
+
+</items>

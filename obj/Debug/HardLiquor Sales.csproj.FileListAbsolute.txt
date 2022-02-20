@@ -21,3 +21,4 @@ C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiqu
 C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor Sales.pdb
 C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor Sales.csprojAssemblyReference.cache
 C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor_Sales.LocalSavings.resources
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor_Sales.Form5.resources

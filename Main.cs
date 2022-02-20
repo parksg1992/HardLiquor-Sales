@@ -160,5 +160,11 @@ namespace HardLiquor_Sales
                 System.IO.File.AppendAllText(savePath, itemInfoText, Encoding.Default);
             }
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form5 newForm = new Form5();
+            newForm.ShowDialog();
+        }
     }
 }

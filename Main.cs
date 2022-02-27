@@ -73,7 +73,6 @@ namespace HardLiquor_Sales
         OpenFileDialog OrderOFD = new OpenFileDialog();
         public static string TestFilePath = "";
         int orderFileCnt = 0;
-        ItemInfo_Test[] itemInfo_Test;
 
         public struct ItemInfo_Test
         {
@@ -163,7 +162,13 @@ namespace HardLiquor_Sales
 
         private void button5_Click(object sender, EventArgs e)
         {
-            Form5 newForm = new Form5();
+            Form6 newForm = new Form6();
+            newForm.ShowDialog();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            AddToTGPDatabase newForm = new AddToTGPDatabase();
             newForm.ShowDialog();
         }
     }

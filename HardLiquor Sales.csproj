@@ -41,6 +41,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -57,6 +58,12 @@
     </Compile>
     <Compile Include="AddToDatabase.Designer.cs">
       <DependentUpon>AddToDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddToTGPDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddToTGPDatabase.Designer.cs">
+      <DependentUpon>AddToTGPDatabase.cs</DependentUpon>
     </Compile>
     <Compile Include="Edit.cs">
       <SubType>Form</SubType>
@@ -94,6 +101,12 @@
     <Compile Include="Form5.Designer.cs">
       <DependentUpon>Form5.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
     <Compile Include="LocalSaving.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +120,12 @@
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
+    <Compile Include="Margin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Margin.Designer.cs">
+      <DependentUpon>Margin.cs</DependentUpon>
+    </Compile>
     <Compile Include="MoreFileToAdd.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +136,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AddToDatabase.resx">
       <DependentUpon>AddToDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddToTGPDatabase.resx">
+      <DependentUpon>AddToTGPDatabase.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Edit.resx">
       <DependentUpon>Edit.cs</DependentUpon>
@@ -136,11 +158,17 @@
     <EmbeddedResource Include="Form5.resx">
       <DependentUpon>Form5.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LocalSaving.resx">
       <DependentUpon>LocalSaving.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Margin.resx">
+      <DependentUpon>Margin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MoreFileToAdd.resx">
       <DependentUpon>MoreFileToAdd.cs</DependentUpon>

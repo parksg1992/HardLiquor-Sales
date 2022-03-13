@@ -22,11 +22,13 @@ namespace HardLiquor_Sales
             public string itemPk;
             public string tgp_srp;
             public string landed_cost;
+            public double priceDiff;
         }
         List<ItemInfo> databaseItems = new List<ItemInfo>();
         List<ItemInfo> tgpItems = new List<ItemInfo>();
         List<ItemInfo> updateItemList = new List<ItemInfo>();
 
+        bool updateFlag = true;
 
         OpenFileDialog OrderOFD = new OpenFileDialog();
 
@@ -170,12 +172,12 @@ namespace HardLiquor_Sales
             {
                 var temp = new ItemInfo();
 
-                temp.itemNum = itemNumRawData[i, 1].ToString();
-                temp.itemUPC = itemUPCRawData[i, 1].ToString();
-                temp.itemDesc = itemDescRawData[i, 1].ToString();
-                temp.itemPk = itemPkRawData[i, 1].ToString();
-                temp.tgp_srp = itemTgpSrpRawData[i, 1].ToString();
-                temp.landed_cost = itemLandedCostRawData[i, 1].ToString();
+                temp.itemNum = (itemNumRawData[i, 1] == null ? "0" : itemNumRawData[i, 1].ToString());
+                temp.itemUPC = (itemUPCRawData[i, 1] == null ? "0" : itemUPCRawData[i, 1].ToString());
+                temp.itemDesc = (itemDescRawData[i, 1] == null ? " " : itemDescRawData[i, 1].ToString());
+                temp.itemPk = (itemPkRawData[i, 1] == null ? "0" : itemPkRawData[i, 1].ToString());
+                temp.tgp_srp = (itemTgpSrpRawData[i, 1] == null ? "0" : itemTgpSrpRawData[i, 1].ToString());
+                temp.landed_cost = (itemLandedCostRawData[i, 1] == null ? "0" : itemLandedCostRawData[i, 1].ToString());
 
                 tgpItems.Add(temp);
 
@@ -205,12 +207,22 @@ namespace HardLiquor_Sales
                     if(convertedLandedCost_TGP > convertedLandedCost_DB)
                     {
                         // Price Increased
-                        // TGP Databse(XML) needs to be updated #####################
+                        matchedItemList.priceDiff = convertedLandedCost_TGP - convertedLandedCost_DB;
+                        updateItemList.Add(matchedItemList);
+                    }
+                    else if(convertedLandedCost_TGP < convertedLandedCost_DB)
+                    {
+                        // Price Decreased
+                        matchedItemList.priceDiff = convertedLandedCost_TGP - convertedLandedCost_DB;
                         updateItemList.Add(matchedItemList);
                     }
                 }
+                int a = pBar1.Value;
 
-                pBar1.PerformStep();
+                if(pBar1.Value < ((pBar1.Maximum) * 0.8))
+                {
+                    pBar1.PerformStep();
+                }
             }
 
             if(updateItemList.Count() != 0)
@@ -223,66 +235,83 @@ namespace HardLiquor_Sales
                 newForm.Owner = this;
                 if (newForm.ShowDialog() == DialogResult.OK)
                 {
-                    MessageBox.Show("An Excel file created.");
+                   
                     this.Close();
                 }
+            }
+            else
+            {
+                updateFlag = false;
+                MessageBox.Show("There is nothing to be updated.\n");
             }
         }
 
         // Write matched items in Excel
-        public void WriteInExcel()
+        public void WriteInExcel(bool updateFlag)
         {
-            Excel.Application myexcelApplication = new Excel.Application();
-            if (myexcelApplication != null)
+            if (updateFlag == true)
             {
-                Excel.Workbook myexcelWorkbook = myexcelApplication.Workbooks.Add();
-                Excel.Worksheet myexcelWorksheet = (Excel.Worksheet)myexcelWorkbook.Sheets.Add();
-
-                const int ITEM_NUMBER = 1;
-                const int ITEM_UPC = 2;
-                const int ITEM_DESC = 3;
-                const int ITEM_PK = 4;
-                const int ITEM_TGP_SRP = 5;
-                const int ITEM_LANDED_COST = 6;
-                const int ITEM_PROGRAM_SRP = 7;
-                float margin = (100 - receivedMarginData) / 100f;
-                
-                myexcelWorksheet.Cells[1, ITEM_NUMBER] = "Item Number";
-                myexcelWorksheet.Cells[1, ITEM_UPC] = "Item UPC";
-                myexcelWorksheet.Cells[1, ITEM_DESC] = "Description";
-                myexcelWorksheet.Cells[1, ITEM_PK] = "PK";
-                myexcelWorksheet.Cells[1, ITEM_TGP_SRP] = "TGP SRP";
-                myexcelWorksheet.Cells[1, ITEM_LANDED_COST] = "Landed Cost";
-                myexcelWorksheet.Cells[1, ITEM_PROGRAM_SRP] = "PROGRAM SRP";
-
-                int row = 2;
-
-                for (int i = 0; i < updateItemList.Count(); row++, i++)
+                Excel.Application myexcelApplication = new Excel.Application();
+                if (myexcelApplication != null)
                 {
-                    myexcelWorksheet.Cells[row, ITEM_NUMBER] = updateItemList[i].itemNum;
-                    myexcelWorksheet.Cells[row, ITEM_UPC] = updateItemList[i].itemUPC;
-                    myexcelWorksheet.Cells[row, ITEM_DESC] = updateItemList[i].itemDesc;
-                    myexcelWorksheet.Cells[row, ITEM_PK] = updateItemList[i].itemPk;
-                    myexcelWorksheet.Cells[row, ITEM_TGP_SRP] = updateItemList[i].tgp_srp;
-                    myexcelWorksheet.Cells[row, ITEM_LANDED_COST] = updateItemList[i].landed_cost;
+                    Excel.Workbook myexcelWorkbook = myexcelApplication.Workbooks.Add();
+                    Excel.Worksheet myexcelWorksheet = (Excel.Worksheet)myexcelWorkbook.Sheets.Add();
 
-                    double landedCost = Convert.ToDouble(updateItemList[i].landed_cost);
-                    double itemPk = Convert.ToDouble(updateItemList[i].itemPk);
-                    double marginPrice = (landedCost / itemPk) / margin;
+                    const int ITEM_NUMBER = 1;
+                    const int ITEM_UPC = 2;
+                    const int ITEM_DESC = 3;
+                    const int ITEM_PK = 4;
+                    const int ITEM_LANDED_COST = 5;
+                    const int ITEM_TGP_SRP = 6;
+                    const int ITEM_PROGRAM_SRP = 7;
+                    const int ITEM_PRICE_DIFF = 8;
 
-                    
+                    float margin = (100 - receivedMarginData) / 100f;
 
-                    myexcelWorksheet.Cells[row, ITEM_PROGRAM_SRP] = marginPrice.ToString("0.##");
+                    myexcelWorksheet.Cells[1, ITEM_NUMBER] = "Item Number";
+                    myexcelWorksheet.Cells[1, ITEM_UPC] = "Item UPC";
+                    myexcelWorksheet.Cells[1, ITEM_DESC] = "Description";
+                    myexcelWorksheet.Cells[1, ITEM_PK] = "PK";
+                    myexcelWorksheet.Cells[1, ITEM_LANDED_COST] = "Landed Cost";
+                    myexcelWorksheet.Cells[1, ITEM_TGP_SRP] = "TGP SRP";
+                    myexcelWorksheet.Cells[1, ITEM_PROGRAM_SRP] = "PROGRAM SRP";
+                    myexcelWorksheet.Cells[1, ITEM_PRICE_DIFF] = "PRICE DIFF";
+
+                    int row = 2;
+
+                    for (int i = 0; i < updateItemList.Count(); row++, i++)
+                    {
+                        myexcelWorksheet.Cells[row, ITEM_NUMBER] = updateItemList[i].itemNum;
+                        myexcelWorksheet.Cells[row, ITEM_UPC] = updateItemList[i].itemUPC;
+                        myexcelWorksheet.Cells[row, ITEM_DESC] = updateItemList[i].itemDesc;
+                        myexcelWorksheet.Cells[row, ITEM_PK] = updateItemList[i].itemPk;
+                        myexcelWorksheet.Cells[row, ITEM_TGP_SRP] = updateItemList[i].tgp_srp;
+                        myexcelWorksheet.Cells[row, ITEM_LANDED_COST] = updateItemList[i].landed_cost;
+                        myexcelWorksheet.Cells[row, ITEM_PRICE_DIFF] = updateItemList[i].priceDiff;
+
+                        double landedCost = Convert.ToDouble(updateItemList[i].landed_cost);
+                        double itemPk = Convert.ToDouble(updateItemList[i].itemPk);
+                        double marginPrice = (landedCost / itemPk) / margin;
+
+                        myexcelWorksheet.Cells[row, ITEM_PROGRAM_SRP] = marginPrice.ToString("0.##");
+
+                        pBar1.PerformStep();
+                    }
+
+                    pBar1.Value = pBar1.Maximum;
+                    string date = DateTime.Now.ToString("yyyy-MM-dd__hh-mm-ss");
+                    tgpExcelFile = tgpExcelFile + date + ".xlsx";
+
+                    myexcelApplication.ActiveWorkbook.SaveAs(tgpExcelFile, Excel.XlFileFormat.xlWorkbookDefault);
+
+                    myexcelWorkbook.Close();
+                    myexcelApplication.Quit();
+
+                    MessageBox.Show("An Excel file created.");
                 }
-
-                string date = DateTime.Now.ToString("yyyy-MM-dd__hh-mm-ss");
-                tgpExcelFile = tgpExcelFile + date + ".xlsx";
-
-                myexcelApplication.ActiveWorkbook.SaveAs(tgpExcelFile, Excel.XlFileFormat.xlWorkbookDefault);
-
-                myexcelWorkbook.Close();
-                myexcelApplication.Quit();
             }
+            
+            this.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -292,13 +321,13 @@ namespace HardLiquor_Sales
             pBar1.Maximum = databaseItems.Count();
             pBar1.Value = 20;
             pBar1.Step = 1;
-           // pBar1.PerformStep();
+
+            updateFlag = true;
 
             ReadTGPItems();
             AddToList();
             Compare();
-            WriteInExcel();
-
+            WriteInExcel(updateFlag);
         }
     }
 }

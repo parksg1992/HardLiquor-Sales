@@ -22,14 +22,13 @@ namespace HardLiquor_Sales
             Form5 form5 = (Form5)Owner;
             string text = textBox1.Text;
 
-            if(text.Length > 2)
+            if(text.Length > 2 || text.Length == 0)
             {
                 MessageBox.Show("Margin should be less than 100%.\nPlease enter again.");
             }
             else
             {
                 form5.receivedMarginData = Convert.ToInt32(text);
-                MessageBox.Show("Done.");
 
                 this.DialogResult = DialogResult.OK;
                 this.Close();

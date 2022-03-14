@@ -25,3 +25,4 @@ C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiqu
 C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor_Sales.Margin.resources
 C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor_Sales.AddToTGPDatabase.resources
 C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor_Sales.Form6.resources
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Debug\HardLiquor_Sales.Search.resources

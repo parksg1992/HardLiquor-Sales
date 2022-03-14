@@ -28,5 +28,11 @@ namespace HardLiquor_Sales
             Form5 newForm = new Form5();
             newForm.ShowDialog();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Search newForm = new Search();
+            newForm.ShowDialog();
+        }
     }
 }

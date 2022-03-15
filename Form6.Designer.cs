@@ -35,7 +35,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(33, 40);
+            this.button1.Location = new System.Drawing.Point(33, 85);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(173, 42);
             this.button1.TabIndex = 0;
@@ -45,17 +45,17 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(33, 97);
+            this.button2.Location = new System.Drawing.Point(33, 25);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(173, 42);
             this.button2.TabIndex = 1;
-            this.button2.Text = "CHECK PRICE";
+            this.button2.Text = "CHECK ITEM PRICE";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(33, 156);
+            this.button3.Location = new System.Drawing.Point(33, 144);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(173, 42);
             this.button3.TabIndex = 2;

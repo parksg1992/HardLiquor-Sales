@@ -55,6 +55,7 @@ namespace HardLiquor_Sales
         OpenFileDialog TGP_OFD = new OpenFileDialog();
         public static string filePath_temp = System.Reflection.Assembly.GetExecutingAssembly().Location;
         public string dbFilePath = System.IO.Path.GetDirectoryName(filePath_temp) + "\\TGP_Database.xml";
+        public string dbFilePath_old = System.IO.Path.GetDirectoryName(filePath_temp) + "\\TGP_Database_old.xml";
         public string tgpExcelFile = System.IO.Path.GetDirectoryName(filePath_temp) + "\\TGP_Price_Checker_";
         public string TGPPriceCheckerExcelFile = System.IO.Path.GetDirectoryName(filePath_temp) + "\\TGP_PriceChecker_";
 
@@ -246,6 +247,58 @@ namespace HardLiquor_Sales
             }
         }
 
+        public void CopyFile()
+        {
+            System.IO.File.Copy(dbFilePath, dbFilePath_old, true);
+        }
+
+        private void UpdateDatabase(List<ItemInfo> updateItemList)
+        {
+            CopyFile();
+
+            XmlDocument XmlDoc = new XmlDocument();
+            XmlDoc.Load(dbFilePath);
+
+            XmlNodeList nodeList = XmlDoc.SelectNodes("/descendant::items/itemInfo");
+
+            foreach(var updateItem in updateItemList)
+            {
+                int getIndex = databaseItems.FindIndex(x => x.itemNum == updateItem.itemNum);
+
+                nodeList[getIndex].Attributes[0].InnerText = updateItem.itemNum;
+                nodeList[getIndex].Attributes[1].InnerText = updateItem.itemUPC;
+                nodeList[getIndex].Attributes[2].InnerText = updateItem.itemDesc;
+                nodeList[getIndex].Attributes[3].InnerText = updateItem.itemPk;
+                nodeList[getIndex].Attributes[4].InnerText = updateItem.tgp_srp;
+                nodeList[getIndex].Attributes[5].InnerText = updateItem.landed_cost;
+            }
+
+            //                updateItemList.Find(x => x.itemNum.Equals(node.)
+
+            // Attributes[0]; // Item Number
+            // Attributes[1]; // Item UPC
+            // Attributes[2]; // Item Description
+            // Attributes[3]; // Item Pk
+            // Attributes[4]; // Item TGP SRP
+            // Attributes[5]; // Item Landed Cost
+
+            /*
+            nodeList[getIndex].Attributes[0].InnerText = textBox2.Text;
+            nodeList[getIndex].Attributes[1].InnerText = textBox3.Text;
+            nodeList[getIndex].Attributes[2].InnerText = textBox4.Text;
+            nodeList[getIndex].Attributes[3].InnerText = textBox5.Text;
+            nodeList[getIndex].Attributes[4].InnerText = textBox6.Text;
+            nodeList[getIndex].Attributes[5].InnerText = textBox7.Text;
+            */
+
+            XmlDoc.Save(dbFilePath);
+            ReadDatabaseItems();
+
+            MessageBox.Show("Database file is successfully updated.", "Message Box");
+
+            
+        }
+
         // Write matched items in Excel
         public void WriteInExcel(bool updateFlag)
         {
@@ -286,6 +339,8 @@ namespace HardLiquor_Sales
                         myexcelWorksheet.Cells[row, ITEM_DESC] = updateItemList[i].itemDesc;
                         myexcelWorksheet.Cells[row, ITEM_PK] = updateItemList[i].itemPk;
                         myexcelWorksheet.Cells[row, ITEM_TGP_SRP] = updateItemList[i].tgp_srp;
+                        myexcelWorksheet.Cells[row, ITEM_TGP_SRP].Interior.Color = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.LightGray);
+
                         myexcelWorksheet.Cells[row, ITEM_LANDED_COST] = updateItemList[i].landed_cost;
                         myexcelWorksheet.Cells[row, ITEM_PRICE_DIFF] = updateItemList[i].priceDiff;
 
@@ -308,6 +363,8 @@ namespace HardLiquor_Sales
                     myexcelApplication.Quit();
 
                     MessageBox.Show("An Excel file created.");
+
+                    UpdateDatabase(updateItemList);
                 }
             }
             

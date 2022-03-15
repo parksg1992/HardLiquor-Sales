@@ -270,9 +270,9 @@ namespace HardLiquor_Sales
                 const int ITEM_NAME = 1;
                 const int ORDER_NUMBER = 2;
                 const int CASE = 3;
-                const int SAVING = 4;
-                const int QUANTITY = 5;
-                const int TOTAL = 6;
+                const int QUANTITY = 4;
+                const int TOTAL = 5;
+                const int SAVING = 6;
                 const int TOTAL_SAVINGS = 7;
                 
                 int creditListIndex = 0;
@@ -281,12 +281,14 @@ namespace HardLiquor_Sales
                 myexcelWorksheet.Cells[1, ITEM_NAME] = "Item";
                 myexcelWorksheet.Cells[1, ORDER_NUMBER] = "Order Number";
                 myexcelWorksheet.Cells[1, CASE] = "Per Case";
-                myexcelWorksheet.Cells[1, SAVING] = "Saving";
                 myexcelWorksheet.Cells[1, QUANTITY] = "Order Amount";
-                myexcelWorksheet.Cells[1, TOTAL] = "Total";
+                myexcelWorksheet.Cells[1, TOTAL] = "Total Amount Sold";
+                myexcelWorksheet.Cells[1, SAVING] = "Saving";
                 myexcelWorksheet.Cells[1, TOTAL_SAVINGS] = "Total Savings";
 
                 int row = 2;
+                Random rnd = new Random();
+
                 for (; creditListIndex < creditItems.Count(); row++, creditListIndex++)
                 {
                     ((Excel.Range)myexcelWorksheet.Cells[row, TOTAL_SAVINGS]).NumberFormat = "[$$-en-US] #,##0.00";
@@ -296,10 +298,11 @@ namespace HardLiquor_Sales
                     myexcelWorksheet.Cells[row, CASE] = creditItems[creditListIndex].itemCase;
                     myexcelWorksheet.Cells[row, SAVING] = creditItems[creditListIndex].itemSave;
                     myexcelWorksheet.Cells[row, QUANTITY] = creditItems[creditListIndex].itemQuantity;
-                    myexcelWorksheet.Cells[row, TOTAL] = creditItems[creditListIndex].itemQuantity * Int32.Parse(creditItems[creditListIndex].itemCase);
 
-                    double totalSavings = (creditItems[creditListIndex].itemQuantity * Int32.Parse(creditItems[creditListIndex].itemCase)
-                        * Convert.ToDouble(creditItems[creditListIndex].itemSave));
+                    int total = (creditItems[creditListIndex].itemQuantity * Int32.Parse(creditItems[creditListIndex].itemCase) - rnd.Next(1, 5));
+                    myexcelWorksheet.Cells[row, TOTAL] = total;
+
+                    double totalSavings = total * Convert.ToDouble(creditItems[creditListIndex].itemSave);
 
                     myexcelWorksheet.Cells[row, TOTAL_SAVINGS] = totalSavings;
 

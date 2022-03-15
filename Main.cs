@@ -34,19 +34,6 @@ namespace HardLiquor_Sales
 
         private void button3_Click(object sender, EventArgs e)
         {
-            string test1 = "Test1";
-            string test2 = "Test2";
-
-            using (StreamWriter wr = new StreamWriter("test.csv"))
-            {
-                wr.WriteLine("Article ID,Quantity");
-                wr.WriteLine("{0},{1}", test1, test2);
-
-                MessageBox.Show("File Create Test Complete", "Message Box");
-            }
-
-            File.Delete("test.csv");
-
             Form3 newForm = new Form3();
             newForm.ShowDialog();
         }

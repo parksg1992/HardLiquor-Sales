@@ -32,6 +32,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pBar1 = new System.Windows.Forms.ProgressBar();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -70,11 +71,26 @@
             this.pBar1.Size = new System.Drawing.Size(306, 23);
             this.pBar1.TabIndex = 5;
             // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Enabled = false;
+            this.textBox2.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.textBox2.ForeColor = System.Drawing.Color.Red;
+            this.textBox2.Location = new System.Drawing.Point(35, 155);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(135, 103);
+            this.textBox2.TabIndex = 6;
+            this.textBox2.Text = "< 체크해야 할 Dept >\r\n\r\n1. Grocery\r\n2. Meat\r\n3. Bakery\r\n4. Deli\r\n5. HBC\r\n6. Hardware";
+            // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(368, 149);
+            this.ClientSize = new System.Drawing.Size(384, 270);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.pBar1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
@@ -92,5 +108,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ProgressBar pBar1;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }

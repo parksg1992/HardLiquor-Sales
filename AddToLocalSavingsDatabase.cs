@@ -11,17 +11,17 @@ using System.Xml;
 
 namespace HardLiquor_Sales
 {
-    public partial class AddToTGPDatabase : Form
+    public partial class AddToLocalSavingsDatabase : Form
     {
         string item = "";
         string itemType = "";
 
-        public AddToTGPDatabase()
+        public AddToLocalSavingsDatabase()
         {
             InitializeComponent();
         }
 
-        public AddToTGPDatabase(string item_, string itemType_)
+        public AddToLocalSavingsDatabase(string item_, string itemType_)
         {
             InitializeComponent();
             item = item_;
@@ -47,16 +47,14 @@ namespace HardLiquor_Sales
             public string itemUPC;
             public string itemDesc;
             public string itemPk;
-            public string tgp_srp;
-            public string landed_cost;
-            public double priceDiff;
+            public string itemSave;
         }
         List<ItemInfo> databaseItems = new List<ItemInfo>();
 
         public static string filePath_temp = System.Reflection.Assembly.GetExecutingAssembly().Location;
-        public string dbFilePath = System.IO.Path.GetDirectoryName(filePath_temp) + "\\TGP_Database.xml";
+        public string dbFilePath = System.IO.Path.GetDirectoryName(filePath_temp) + "\\LocalSavings_Database.xml";
 
-        public void AddXmlNode(String sXml, String sNode, String sMenuNode, String sTypeAttrib_num, String sTypeAttrib_upc, String sTypeAttrib_desc, String sTypeAttrib_pk, String sTypeAttrib_tgp_srp, String sTypeAttrib_landed_cost)
+        public void AddXmlNode(String sXml, String sNode, String sMenuNode, String sTypeAttrib_num, String sTypeAttrib_upc, String sTypeAttrib_desc, String sTypeAttrib_pk, String sTypeAttrib_save)
         {
             XmlDocument xml;
             XmlElement xmlEle;
@@ -68,7 +66,11 @@ namespace HardLiquor_Sales
             newNode = xml.SelectSingleNode(sNode);
             xmlEle = xml.CreateElement(sMenuNode);
 
-            xmlAtb = xml.CreateAttribute("item_num");
+            xmlAtb = xml.CreateAttribute("name");
+            xmlAtb.Value = sTypeAttrib_desc;
+            xmlEle.SetAttributeNode(xmlAtb);
+
+            xmlAtb = xml.CreateAttribute("order_num");
             xmlAtb.Value = sTypeAttrib_num;
             xmlEle.SetAttributeNode(xmlAtb);
 
@@ -76,20 +78,12 @@ namespace HardLiquor_Sales
             xmlAtb.Value = sTypeAttrib_upc;
             xmlEle.SetAttributeNode(xmlAtb);
 
-            xmlAtb = xml.CreateAttribute("desc");
-            xmlAtb.Value = sTypeAttrib_desc;
-            xmlEle.SetAttributeNode(xmlAtb);
-
-            xmlAtb = xml.CreateAttribute("pk");
+            xmlAtb = xml.CreateAttribute("case");
             xmlAtb.Value = sTypeAttrib_pk;
             xmlEle.SetAttributeNode(xmlAtb);
 
-            xmlAtb = xml.CreateAttribute("TGP_srp");
-            xmlAtb.Value = sTypeAttrib_tgp_srp;
-            xmlEle.SetAttributeNode(xmlAtb);
-
-            xmlAtb = xml.CreateAttribute("Landed_cost");
-            xmlAtb.Value = sTypeAttrib_landed_cost;
+            xmlAtb = xml.CreateAttribute("save");
+            xmlAtb.Value = sTypeAttrib_save;
             xmlEle.SetAttributeNode(xmlAtb);
 
             newNode.AppendChild(xmlEle);
@@ -107,12 +101,11 @@ namespace HardLiquor_Sales
             foreach (XmlNode xnl in xmlList_1)
             {
                 var temp = new ItemInfo();
-                temp.itemNum = xnl.Attributes["item_num"].Value;
+                temp.itemDesc = xnl.Attributes["name"].Value;
+                temp.itemNum = xnl.Attributes["order_num"].Value;
                 temp.itemUPC = xnl.Attributes["upc"].Value;
-                temp.itemDesc = xnl.Attributes["desc"].Value;
-                temp.itemPk = xnl.Attributes["pk"].Value;
-                temp.tgp_srp = xnl.Attributes["TGP_srp"].Value;
-                temp.landed_cost = xnl.Attributes["Landed_cost"].Value;
+                temp.itemPk = xnl.Attributes["case"].Value;
+                temp.itemSave = xnl.Attributes["save"].Value;
 
                 databaseItems.Add(temp);
             }
@@ -120,20 +113,21 @@ namespace HardLiquor_Sales
 
         private void button1_Click(object sender, EventArgs e)
         {
+            
+
             string itemNum = textBox1.Text;
             string upc = textBox2.Text;
             string desc = textBox3.Text;
             string pk = textBox4.Text;
-            string tgp_srp = textBox5.Text;
-            string landed_cost = textBox6.Text;
+            string save = textBox5.Text;
 
-            if (itemNum == "" || upc == "" || desc == "" || pk == "" || tgp_srp == "" || landed_cost == "")
+            if (itemNum == "" || upc == "" || desc == "" || pk == "" || save == "")
             {
                 MessageBox.Show("Please enter all information.");
             }
             else
             {
-                AddXmlNode(dbFilePath, "items", "itemInfo", itemNum, upc, desc, pk, tgp_srp, landed_cost);
+                AddXmlNode(dbFilePath, "items", "itemInfo", itemNum, upc, desc, pk, save);
 
                 MessageBox.Show("The item is successfully added to TGP Database.", "Message Box");
 
@@ -144,7 +138,7 @@ namespace HardLiquor_Sales
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if(!(char.IsDigit(e.KeyChar) || e.KeyChar == Convert.ToChar(Keys.Back)))
+            if (!(char.IsDigit(e.KeyChar) || e.KeyChar == Convert.ToChar(Keys.Back)))
             {
                 e.Handled = true;
             }
@@ -166,7 +160,7 @@ namespace HardLiquor_Sales
             }
         }
 
-        private void textBox6_KeyDown(object sender, KeyEventArgs e)
+        private void textBox5_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
             {

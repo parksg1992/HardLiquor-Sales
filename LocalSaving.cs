@@ -42,7 +42,7 @@ namespace HardLiquor_Sales
         public string orderDateYear;
 
         public static string filePath_temp = System.Reflection.Assembly.GetExecutingAssembly().Location;
-        public string dbFilePath = System.IO.Path.GetDirectoryName(filePath_temp) + "\\Sales_Database.xml";
+        public string dbFilePath = System.IO.Path.GetDirectoryName(filePath_temp) + "\\LocalSavings_Database.xml";
         public string localSavingExcelFile = System.IO.Path.GetDirectoryName(filePath_temp) + "\\Local Savings_";
 
         public static bool noMoreFileToAddFlag = false;

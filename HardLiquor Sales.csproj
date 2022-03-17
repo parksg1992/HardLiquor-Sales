@@ -59,6 +59,12 @@
     <Compile Include="AddToDatabase.Designer.cs">
       <DependentUpon>AddToDatabase.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddToLocalSavingsDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddToLocalSavingsDatabase.Designer.cs">
+      <DependentUpon>AddToLocalSavingsDatabase.cs</DependentUpon>
+    </Compile>
     <Compile Include="AddToTGPDatabase.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +76,12 @@
     </Compile>
     <Compile Include="Edit.Designer.cs">
       <DependentUpon>Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_LocalSavings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_LocalSavings.Designer.cs">
+      <DependentUpon>Main_LocalSavings.cs</DependentUpon>
     </Compile>
     <Compile Include="form1.cs">
       <SubType>Form</SubType>
@@ -140,14 +152,27 @@
     <Compile Include="Search.Designer.cs">
       <DependentUpon>Search.cs</DependentUpon>
     </Compile>
+    <Compile Include="Search_LocalSavings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search_LocalSavings.Designer.cs">
+      <DependentUpon>Search_LocalSavings.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddToDatabase.resx">
       <DependentUpon>AddToDatabase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddToLocalSavingsDatabase.resx">
+      <DependentUpon>AddToLocalSavingsDatabase.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AddToTGPDatabase.resx">
       <DependentUpon>AddToTGPDatabase.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Edit.resx">
       <DependentUpon>Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_LocalSavings.resx">
+      <DependentUpon>Main_LocalSavings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="form1.resx">
       <DependentUpon>form1.cs</DependentUpon>
@@ -190,6 +215,9 @@
     </Compile>
     <EmbeddedResource Include="Search.resx">
       <DependentUpon>Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search_LocalSavings.resx">
+      <DependentUpon>Search_LocalSavings.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

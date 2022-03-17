@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<items>
+  <itemInfo name="C.GOLD DISH LIQ ORG GREEN" order_num="2463875" upc="5731618270" case="12" save="0.25" />
+  <itemInfo name="C.GOLD LEMON DISH DET" order_num="540518" upc="5731615425" case="12" save="0.25" />
+  <itemInfo name="C.GOLD AUTO DISH POUCH" order_num="581827" upc="5731615417" case="8" save="0.25" />
+  <itemInfo name="C.GOLD DRYER SHTS SCNT" order_num="507327" upc="5731602453" case="12" save="0.25" />
+  <itemInfo name="C.GOLD DRYER SHTS UNSC" order_num="507301" upc="5731602455" case="12" save="0.25" />
+  <itemInfo name="CENTS LIQ 2X CITRUS 1.5L" order_num="538629" upc="5731615420" case="6" save="0.25" />
+  <itemInfo name="C.GLD BLK GARB BG 26 X 32.5" order_num="691808" upc="5731615534" case="10" save="0.55" />
+  <itemInfo name="CENTS GARBAGE BGS 26 X 32.5" order_num="870493" upc="5731615532" case="12" save="0.25" />
+  <itemInfo name="CG BATH 2PLY DBL 253SHT" order_num="972760" upc="5731616968" case="4" save="0.55" />
+  <itemInfo name="C.GOLD BITS  KIBBLES DOG" order_num="602540" upc="5731615450" case="1" save="0.95" />
+  <itemInfo name="C.GOLD DRY HI PROTN CATFD" order_num="874032" upc="5731613339" case="6" save="0.45" />
+  <itemInfo name="C.GOLD ONION SOUP MIX 2EA" order_num="2432805" upc="5731617924" case="24" save="0.25" />
+  <itemInfo name="C.GOLD CHKN NDL MIX 2EA" order_num="2432797" upc="5731617923" case="24" save="0.25" />
+  <itemInfo name="C.GOLD KETCHUP" order_num="309724" upc="5731609764" case="12" save="0.25" />
+  <itemInfo name="C.GOLD MUSTARD SQUEEZE" order_num="828913" upc="5731616145" case="12" save="0.55" />
+  <itemInfo name="C.GOLD 100% EV OLIVE OIL" order_num="727792" upc="5731601523" case="12" save="0.55" />
+  <itemInfo name="CO-OP GOLD CANOLA OIL" order_num="566943" upc="5731611858" case="6" save="0.25" />
+  <itemInfo name="C.GOLD TACO SEASON REG" order_num="983049" upc="5731614043" case="24" save="0.25" />
+  <itemInfo name="C.GOLD PLUM SAUCE" order_num="995167" upc="5731614187" case="12" save="0.25" />
+  <itemInfo name="C.GOLD SWEET/SOUR SCE" order_num="995191" upc="5731614188" case="12" save="0.25" />
+  <itemInfo name="C.GOLD HONEY/GARLIC SCE" order_num="995217" upc="5731614185" case="12" save="0.25" />
+  <itemInfo name="C.GOLD RICE JASMINE" order_num="483974" upc="5731612516" case="12" save="0.25" />
+  <itemInfo name="C.GOLD INSTANT COFFEE" order_num="246868" upc="5731601013" case="12" save="0.45" />
+  <itemInfo name="CG 100% PURE MAPLE SYRUP" order_num="664763" upc="5731611549" case="12" save="0.75" />
+  <itemInfo name="CG PURE UNPAST. LIQ HONEY" order_num="2465425" upc="5731617876" case="12" save="0.45" />
+  <itemInfo name="C.GOLD SMOOTH PNUT BTTR" order_num="493494" upc="5731600662" case="12" save="0.45" />
+  <itemInfo name="CG INST OATMEAL MAP BRN S" order_num="6263750" upc="5731619519" case="12" save="0.25" />
+  <itemInfo name="CG INST OATMEAL REGULAR" order_num="6263768" upc="5731619520" case="12" save="0.25" />
+  <itemInfo name="C.GOLD CRANBERRY COCKTAIL" order_num="2490936" upc="5731609249" case="6" save="0.25" />
+  <itemInfo name="C.GOLD CRAN/RASPBRY CKTL" order_num="2487205" upc="5731609252" case="6" save="0.25" />
+  <itemInfo name="C.GOLD RUBY RED GRPFRT CKTL" order_num="2487213" upc="5731614546" case="6" save="0.25" />
+  <itemInfo name="C.GOLD ICED TEA MIX" order_num="133306" upc="5731611905" case="12" save="0.25" />
+  <itemInfo name="C.GOLD APPLE PIE FILLING" order_num="990606" upc="5731601842" case="12" save="0.25" />
+  <itemInfo name="C.GOLD BLUEBR PIE FILLING" order_num="990697" upc="5731601843" case="12" save="0.25" />
+  <itemInfo name="C.GOLD CHERRY PIE FILLING" order_num="990507" upc="5731601844" case="12" save="0.25" />
+  <itemInfo name="CENTSIBLES DUPLEX CREME" order_num="358010" upc="5731608895" case="12" save="0.45" />
+  <itemInfo name="CENTSIBLE VANILLA CREME COOKIES" order_num="356717" upc="5731608894" case="12" save="0.45" />
+  <itemInfo name="C.GOLD LONG SPAGHETTI" order_num="263913" upc="5731600969" case="12" save="0.25" />
+  <itemInfo name="C.GOLD RDY CUT MACARONI" order_num="266247" upc="5731600970" case="12" save="0.25" />
+  <itemInfo name="C.GOLD FETTUCCINI" order_num="721498" upc="5731609062" case="12" save="0.25" />
+  <itemInfo name="C.GOLD PURE WIDE EGG NDLE" order_num="6297584" upc="5731619780" case="6" save="0.25" />
+  <itemInfo name="CG RIPPLE POTATO CHIP" order_num="6238638" upc="5731615101" case="15" save="0.15" />
+  <itemInfo name="CG BBQ POTATO CHIP" order_num="6238588" upc="5731615102" case="15" save="0.15" />
+  <itemInfo name="CG DILL PICKLE POTATO CHP" order_num="6238596" upc="5731615106" case="15" save="0.15" />
+  <itemInfo name="CG SALT  VINEGAR POT CHP" order_num="6238646" upc="5731615104" case="15" save="0.15" />
+  <itemInfo name="C.GOLD THEATR X-BTTR CORN 6'S" order_num="993865" upc="5731614097" case="6" save="0.25" />
+  <itemInfo name="C.GOLD BTTR FLAV PCRN 6'S" order_num="993915" upc="5731614093" case="6" save="0.25" />
+  <itemInfo name="C.GOLD GARLIC PWDR POUCH" order_num="863191" upc="5731616418" case="9" save="0.25" />
+  <itemInfo name="C.GOLD CINN GRND POUCH" order_num="862789" upc="5731616415" case="9" save="0.25" />
+  <itemInfo name="C.GOLD CHILI PWDR POUCH" order_num="862714" upc="5731616413" case="9" save="0.25" />
+  <itemInfo name="C.GOLD BLK WHL PEPPER PCH" order_num="862649" upc="5731616409" case="9" save="0.25" />
+  <itemInfo name="C.GOLD ONION PWDR POUCH" order_num="863431" upc="5731616423" case="9" save="0.55" />
+  <itemInfo name="C.GOLD PARSLEY FLAKES PCH" order_num="863498" upc="5731616427" case="9" save="0.55" />
+  <itemInfo name="C.GOLD BLK WHL PEPPER PCH" order_num="862649" upc="5731616409" case="9" save="0.25" />
+  <itemInfo name="C.GOLD OREGANO POUCH" order_num="863456" upc="5731616425" case="9" save="0.55" />
+  <itemInfo name="C.GOLD PAPRIKA POUCH" order_num="863464" upc="5731616426" case="9" save="0.55" />
+  <itemInfo name="C.GOLD BAY LEAVES PCH" order_num="862607" upc="5731616407" case="9" save="0.55" />
+  <itemInfo name="C.GOLD SESAME SEED POUCH" order_num="863555" upc="5731616430" case="9" save="0.55" />
+  <itemInfo name="C.GOLD ITALIAN SEAS POUCH" order_num="863266" upc="5731616421" case="9" save="0.55" />
+  <itemInfo name="CO-OP GOLD NON-HYDRO MARG -C" order_num="6242218" upc="5731612742" case="12" save="0.25" />
+  <itemInfo name="C.GOLD P/S MUSHROOMS" order_num="6272967" upc="5731619680" case="12" save="0.25" />
+  <itemInfo name="C.GOLD SLICED MUSHROOMS" order_num="6273312" upc="5731619644" case="12" save="0.25" />
+  <itemInfo name="CENT CH COAT VAN I/C POP 50ML -Z" order_num="142158" upc="5731612004" case="4" save="0.55" />
+  <itemInfo name="COOP/CENT ICE MILK POPS ASST -Z" order_num="142083" upc="5731611997" case="4" save="0.55" />
+  <itemInfo name="COOP/CENT VAN I/CR SAND 100ML -Z" order_num="141788" upc="5731612001" case="4" save="0.25" />
+  <itemInfo name="C.GOLD SMOOTH NUT BTTR" order_num="493494" upc="5731600662" case="12" save="0.45" />
+  <itemInfo name="C.GOLD 100% EV OLIVE OIL" order_num="727792" upc="5731601523" case="12" save="0.25" />
+  <itemInfo name="CENTS FOIL 12IN 25" order_num="274928" upc="5731602220" case="24" save="0.25" />
+  <itemInfo name="C.GOLD STRETCH WRAP 28CM" order_num="196253" upc="5731602275" case="24" save="0.45" />
+  <itemInfo name="C.GOLD VERMICELLI" order_num="6302038" upc="5731619846" case="12" save="0.55" />
+  <itemInfo name="C.GOLD LINGUINE 900G" order_num="6302020" upc="5731619845" case="12" save="0.25" />
+  <itemInfo name="C.GOLD BTTR FLAV PCRN 6 S" order_num="993915" upc="5731614093" case="6" save="0.25" />
+  <itemInfo name="C.GOLD THEATR X-BTTR CORN 6 S" order_num="5731614097" upc="5731614097" case="6" save="0.25" />
+  <itemInfo name="C.GOLD HONEY/GARLIC SCE" order_num="995217" upc="5731614185" case="12" save="0.25" />
+  <itemInfo name="C.GOLD PLUM SAUCE" order_num="995167" upc="5731614186" case="12" save="0.25" />
+  <itemInfo name="C.GOLD MAYO" order_num="178889" upc="5731614486" case="12" save="0.25" />
+  <itemInfo name="C.GOLD SPAGHETTI" order_num="6302004" upc="5731619843" case="13" save="0.25" />
+  <itemInfo name="C.GOLD MACARONI" order_num="6302087" upc="5731619851" case="13" save="0.25" />
+  <itemInfo name="C.GOLD SPAGHETTINI" order_num="6302061" upc="5731619849" case="13" save="0.25" />
+  <itemInfo name="C.GOLD TORTIGLIONI" order_num="6302053" upc="5731619848" case="13" save="0.25" />
+  <itemInfo name="C.GOLD FETTUCCINI" order_num="6302046" upc="5731619847" case="12" save="0.25" />
+  <itemInfo name="C.GOLD HONEY/GARLIC SCE" order_num="995317" upc="5731614185" case="12" save="0.25" />
+  <itemInfo name="C.GOLD TERIYAKI SAUCE" order_num="995209" upc="5731614186" case="12" save="0.25" />
+  <itemInfo name="C.GOLD DIET CRAN COCKTAIL" order_num="2491074" upc="5731609250" case="6" save="0.25" />
+  <itemInfo name="C.GOLD SWT THAI CHILI SCE" order_num="729269" upc="5731615834" case="12" save="0.25" />
+  <itemInfo name="C.GOLD LITE CHRY PIE FILL" order_num="990887" upc="571616877" case="12" save="0.25" />
+  <itemInfo name="C.GOLD ALLSORTS" order_num="960328" upc="5731616717" case="10" save="0.25" />
+  <itemInfo name="C.GOLD FUNSORTS" order_num="960476" upc="5731616718" case="10" save="0.25" />
+  <itemInfo name="C.GOLD WINEGUMS" order_num="960518" upc="5731616719" case="10" save="0.25" />
+  <itemInfo name="C.GOLD ENRICHED FLOUR" order_num="2468411" upc="5731618251" case="10" save="0.75" />
+  <itemInfo name="C.GOLD TART SHELLS 30CT 3IN-Z" order_num="2480804" upc="5731618371" case="8" save="0.25" />
+  <itemInfo name="CG INST OATMEAL VARIETY" order_num="6263776" upc="5731619521" case="12" save="0.25" />
+  <itemInfo name="CENTSIBLE MAPLE COOKIES" order_num="6284780" upc="5731619607" case="12" save="0.25" />
+  <itemInfo name="CENTSIBLE OATMEAL COOKIES" order_num="6284798" upc="5731619609" case="12" save="0.25" />
+  <itemInfo name="C.GOLD WHOLE MUSHROOMS" order_num="6273320" upc="5731619645" case="12" save="0.25" />
+  <itemInfo name="C.GOLD PURE THIN EGG NDLE" order_num="6297550" upc="5731619779" case="6" save="0.25" />
+  <itemInfo name="C.GOLD PEP PIZZA SNACK-Z" order_num="6291058" upc="5731619865" case="12" save="0.25" />
+  <itemInfo name="C.GOLD COMPLETE REG PANCK MIX" order_num="306746" upc="5731614592" case="12" save="0.25" />
+  <itemInfo name="C.GOLD COMP BTTRMLK PCAKE MIX" order_num="306878" upc="5731614593" case="12" save="0.25" />
+  <itemInfo name="C.GOLD SAND BAGS ZIPPER" order_num="179002" upc="5731602293" case="12" save="0.25" />
+  <itemInfo name="C.GOLD CHOW MEIN NOODLES" order_num="245795" upc="5731609744" case="12" save="0.25" />
+  <itemInfo name="C.GOLD STEAM FRIED NDLS" order_num="245902" upc="5731609745" case="12" save="0.25" />
+  <itemInfo name="C.GOLD RNCH SALAD DRESG" order_num="901215" upc="5731611604" case="6" save="0.25" />
+  <itemInfo name="C.GOLD CAESAR SALAD DRESG" order_num="901272" upc="5731611602" case="6" save="0.25" />
+  <itemInfo name="C.GOLD RNCH LITE SALAD DRESG" order_num="901827" upc="5731611605" case="6" save="0.25" />
+  <itemInfo name="C.GOLD 1000 ISLAND DRESG" order_num="901918" upc="5731611608" case="6" save="0.25" />
+  <itemInfo name="C.GOLD COLESLAW DRESG" order_num="901934" upc="5731611610" case="6" save="0.25" />
+  <itemInfo name="CGOLD FRENCH SALAD DRESG" order_num="901942" upc="5731611611" case="6" save="0.25" />
+  <itemInfo name="C.GOLD CARAMEL SAUCE" order_num="937672" upc="5731616808" case="12" save="0.25" />
+  <itemInfo name="C.GOLD CHOCOLATE SAUCE" order_num="937680" upc="5731616809" case="12" save="0.25" />
+  <itemInfo name="C.GOLD SWT POTATO DILL PEROGY-Z" order_num="2420693" upc="5731617781" case="10" save="0.25" />
+  <itemInfo name="C.GOLD APPLE CINNAMON PEROGY-Z" order_num="2420859" upc="5731617783" case="10" save="0.25" />
+  <itemInfo name="C.GOLD LOADED BKED POTATO PEROGY-Z" order_num="6245849" upc="5731619281" case="10" save="0.25" />
+  <itemInfo name="C.GOLD GARLIC PARMESAN PEROGY-Z" order_num="6245856" upc="5731619282" case="10" save="0.25" />
+  <itemInfo name="CG PURE UNPAST CRM HNY" order_num="2465466" upc="5731617880" case="12" save="0.50" />
+  <itemInfo name="CENTS FOAM PLATE 9IN/23CM" order_num="266221" upc="5731602314" case="6" save="0.25" />
+  <itemInfo name="C.GOLD SHOESTRING FRIES-Z" order_num="171496" upc="5731602873" case="12" save="0.25" />
+  <itemInfo name="C.GOLD BATTRD ONION RINGS -Z" order_num="689885" upc="5731609966" case="8" save="0.25" />
+  <itemInfo name="C.GOLD STRAIGHT CUT FRIES -Z" order_num="2421576" upc="5731617809" case="12" save="0.25" />
+  <itemInfo name="C.GOLD WHIPPED TOPPING -Z" order_num="237917" upc="5731602886" case="12" save="0.25" />
+  <itemInfo name="C.GOLD ICED TEA MIX" order_num="2454841" upc="5731618195" case="6" save="0.25" />
+  <itemInfo name="C.GOLD MILD SALSA" order_num="898981" upc="5731613501" case="12" save="0.25" />
+  <itemInfo name="C.GOLD REG MARSHMALLOWS" order_num="2437440" upc="5731617933" case="12" save="0.25" />
+  <itemInfo name="C.GOLD MIXED GUMMY TREATS 400G" order_num="738278" upc="5731617652" case="10" save="0.25" />
+  <itemInfo name="C.GOLD MEDIUM SALSA" order_num="898999" upc="5731613502" case="12" save="0.25" />
+  <itemInfo name="C.GOLD JUJUBES" order_num="738286" upc="5731617653" case="10" save="0.25" />
+  <itemInfo name="C.GOLD PLASTIC SPOON" order_num="730432" upc="5731602371" case="36" save="0.25" />
+  <itemInfo name="C.GOLD COLA CANDY" order_num="2451565" upc="5731618142" case="8" save="0.25" />
+  <itemInfo name="C.GOLD CHOCOLATE SAUCE" order_num="937680" upc="5731616809" case="12" save="0.25" />
+  <itemInfo name="C.GOLD BOLD BBQ SAUCE" order_num="6254478" upc="5731619538" case="6" save="0.25" />
+  <itemInfo name="C.GOLD PINAPL GNR BBQ" order_num="6271050" upc="5731619594" case="6" save="0.25" />
+  <itemInfo name="C.GOLD CHKN &amp; RIB BBQ SC" order_num="6254494" upc="5731619536" case="6" save="0.25" />
+  <itemInfo name="C.GOLD CRINKLE CUT FRIES -Z" order_num="421800" upc="57316102820" case="12" save="0.25" />
+  <itemInfo name="C.GOLD TART SHELLS 30CT 3IN-Z" order_num="2480804" upc="5731618371" case="8" save="0.25" />
+  <itemInfo name="CG 2PLY EMBOS WHT NAPKIN" order_num="601351" upc="5731615507" case="24" save="0.25" />
+  <itemInfo name="C.GOLD BBQ PEANUTS" order_num="6280341" upc="5731619600" case="12" save="0.25" />
+  <itemInfo name="C.GOLD P/NUTS ROAST &amp; SLT" order_num="6280499" upc="5731619602" case="12" save="0.25" />
+  <itemInfo name="C.GOLD MED FRZR ZIPPER" order_num="181222" upc="57316102294" case="12" save="0.25" />
+  <itemInfo name="C.GOLD ROAST &amp; SALT PNTS" order_num="6280556" upc="5731619603" case="12" save="0.25" />
+  <itemInfo name="CENTS MED GRND COFFEE TIN" order_num="570622" upc="5731615519" case="6" save="0.25" />
+  <itemInfo name="C.GOLD MIXED NUT 40% CSHW" order_num="6280507" upc="5731619596" case="6" save="0.25" />
+  <itemInfo name="C.GOLD MUSTART SQUEEZE" order_num="835298" upc="5731616146" case="12" save="0.25" />
+  <itemInfo name="C.GOLD WHOLE CASHEW" order_num="6280549" upc="5731619597" case="6" save="0.25" />
+  <itemInfo name="C.GLD PLATE PAPER 6.75IN DESSERT" order_num="639609" upc="5731615674" case="12" save="0.25" />
+  <itemInfo name="C.GOLD P/NUTS ROAST &amp; UNS" order_num="6280382" upc="5731619601" case="12" save="0.25" />
+</items>

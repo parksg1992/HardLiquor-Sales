@@ -40,8 +40,8 @@ namespace HardLiquor_Sales
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-            LocalSavings localSaving = new LocalSavings();
-            localSaving.ShowDialog();
+            Main_LocalSavings main_localSaving = new Main_LocalSavings();
+            main_localSaving.ShowDialog();
         }
 
 

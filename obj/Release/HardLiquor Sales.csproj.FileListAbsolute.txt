@@ -21,3 +21,11 @@ C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\bin\Release\itexts
 C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Release\HardLiquor_Sales.MoreFileToAdd.resources
 C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Release\HardLiquor Sales.csproj.CopyComplete
 C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Release\HardLiquor_Sales.LocalSavings.resources
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Release\HardLiquor_Sales.AddToTGPDatabase.resources
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Release\HardLiquor_Sales.Form5.resources
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Release\HardLiquor_Sales.Form6.resources
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Release\HardLiquor_Sales.Margin.resources
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Release\HardLiquor_Sales.Search.resources
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Release\HardLiquor_Sales.AddToLocalSavingsDatabase.resources
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Release\HardLiquor_Sales.Main_LocalSavings.resources
+C:\Users\rhehf\source\repos\HardLiquor Sales\HardLiquor Sales\obj\Release\HardLiquor_Sales.Search_LocalSavings.resources

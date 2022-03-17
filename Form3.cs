@@ -35,7 +35,7 @@ namespace HardLiquor_Sales
         public static List<ItemOrderForm> orderList = new List<ItemOrderForm>();
         //public string filePath = "C:\\Users\\rhehf\\OneDrive\\Desktop\\database.xml";
         public static string filePath_temp = System.Reflection.Assembly.GetExecutingAssembly().Location;
-        public string dbFilePath = System.IO.Path.GetDirectoryName(filePath_temp) + "\\database.xml";
+        public string dbFilePath = System.IO.Path.GetDirectoryName(filePath_temp) + "\\Liquor_Database.xml";
         public string csvFilePath = System.IO.Path.GetDirectoryName(filePath_temp);
         public string orderFileListPath = System.IO.Path.GetDirectoryName(filePath_temp) + "\\Order List.txt";
 

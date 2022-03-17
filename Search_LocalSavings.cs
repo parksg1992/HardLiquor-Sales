@@ -12,10 +12,10 @@ using System.Xml.Linq;
 
 namespace HardLiquor_Sales
 {
-    public partial class Search : Form
+    public partial class Search_LocalSavings : Form
     {
         public static string filePath_temp = System.Reflection.Assembly.GetExecutingAssembly().Location;
-        public string dbFilePath = System.IO.Path.GetDirectoryName(filePath_temp) + "\\TGP_Database.xml";
+        public string dbFilePath = System.IO.Path.GetDirectoryName(filePath_temp) + "\\LocalSavings_Database.xml";
 
         public struct ItemInfo
         {
@@ -23,19 +23,17 @@ namespace HardLiquor_Sales
             public string itemUPC;
             public string itemDesc;
             public string itemPk;
-            public string tgp_srp;
-            public string landed_cost;
-            public double priceDiff;
+            public string itemSave;
         }
 
         List<ItemInfo> databaseItems = new List<ItemInfo>();
         int getIndex = 0;
 
-        public Search()
+        public Search_LocalSavings()
         {
             InitializeComponent();
             checkedListBox1.SetItemChecked(0, true);
-            
+
             ReadDatabaseItems();
         }
 
@@ -47,16 +45,15 @@ namespace HardLiquor_Sales
             XmlDocument xml = new XmlDocument();
             xml.Load(dbFilePath);
             XmlNode xmlList_1 = xml.SelectNodes("items")[0];
-            
+
             foreach (XmlNode xnl in xmlList_1)
             {
                 var temp = new ItemInfo();
-                temp.itemNum = xnl.Attributes["item_num"].Value;
+                temp.itemNum = xnl.Attributes["order_num"].Value;
                 temp.itemUPC = xnl.Attributes["upc"].Value;
-                temp.itemDesc = xnl.Attributes["desc"].Value;
-                temp.itemPk = xnl.Attributes["pk"].Value;
-                temp.tgp_srp = xnl.Attributes["TGP_srp"].Value;
-                temp.landed_cost = xnl.Attributes["Landed_cost"].Value;
+                temp.itemDesc = xnl.Attributes["name"].Value;
+                temp.itemPk = xnl.Attributes["case"].Value;
+                temp.itemSave = xnl.Attributes["save"].Value;
 
                 databaseItems.Add(temp);
             }
@@ -80,17 +77,15 @@ namespace HardLiquor_Sales
 
             return node;
         }
-
         public void textBoxEnable(bool enable)
         {
-            if(enable == true)
+            if (enable == true)
             {
                 textBox2.Enabled = true;
                 textBox3.Enabled = true;
                 textBox4.Enabled = true;
                 textBox5.Enabled = true;
                 textBox6.Enabled = true;
-                textBox7.Enabled = true;
             }
             else
             {
@@ -99,9 +94,9 @@ namespace HardLiquor_Sales
                 textBox4.Enabled = false;
                 textBox5.Enabled = false;
                 textBox6.Enabled = false;
-                textBox7.Enabled = false;
             }
         }
+
         private void XMLModifier()
         {
             XmlDocument XmlDoc = new XmlDocument();
@@ -109,19 +104,17 @@ namespace HardLiquor_Sales
 
             XmlNodeList nodeList = XmlDoc.SelectNodes("/descendant::items/itemInfo");
 
-            // Attributes[0]; // Item Number
-            // Attributes[1]; // Item UPC
-            // Attributes[2]; // Item Description
+            // Attributes[0]; // Item Description
+            // Attributes[1]; // Item Number
+            // Attributes[2]; // Item UPC
             // Attributes[3]; // Item Pk
-            // Attributes[4]; // Item TGP SRP
-            // Attributes[5]; // Item Landed Cost
+            // Attributes[4]; // Item Save
 
-            nodeList[getIndex].Attributes[0].InnerText = textBox2.Text;
-            nodeList[getIndex].Attributes[1].InnerText = textBox3.Text;
-            nodeList[getIndex].Attributes[2].InnerText = textBox4.Text;
+            nodeList[getIndex].Attributes[0].InnerText = textBox4.Text;
+            nodeList[getIndex].Attributes[1].InnerText = textBox2.Text;
+            nodeList[getIndex].Attributes[2].InnerText = textBox3.Text;
             nodeList[getIndex].Attributes[3].InnerText = textBox5.Text;
             nodeList[getIndex].Attributes[4].InnerText = textBox6.Text;
-            nodeList[getIndex].Attributes[5].InnerText = textBox7.Text;
 
             XmlDoc.Save(dbFilePath);
             ReadDatabaseItems();
@@ -131,13 +124,13 @@ namespace HardLiquor_Sales
             textBoxEnable(false);
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void search_btn_Click(object sender, EventArgs e)
         {
             textBoxEnable(false);
 
             bool itemNumber = checkedListBox1.GetItemChecked(0);
             bool upc = checkedListBox1.GetItemChecked(1);
-           
+
             ItemInfo item = new ItemInfo();
 
             // Found
@@ -152,7 +145,7 @@ namespace HardLiquor_Sales
                     {
                         MessageBox.Show("The item is not in Database.", "Message Box");
 
-                        AddToTGPDatabase newForm = new AddToTGPDatabase(textBox1.Text, "itemNum");
+                        AddToLocalSavingsDatabase newForm = new AddToLocalSavingsDatabase(textBox1.Text, "itemNum");
                         newForm.ShowDialog();
 
                         textBox1.Clear();
@@ -167,7 +160,7 @@ namespace HardLiquor_Sales
                     {
                         MessageBox.Show("The item is not in Database.", "Message Box");
 
-                        AddToTGPDatabase newForm = new AddToTGPDatabase(textBox1.Text, "itemUPC");
+                        AddToLocalSavingsDatabase newForm = new AddToLocalSavingsDatabase(textBox1.Text, "itemUPC");
                         newForm.ShowDialog();
 
                         textBox1.Clear();
@@ -178,31 +171,29 @@ namespace HardLiquor_Sales
                 textBox3.Text = item.itemUPC;
                 textBox4.Text = item.itemDesc;
                 textBox5.Text = item.itemPk;
-                textBox6.Text = item.tgp_srp;
-                textBox7.Text = item.landed_cost;
+                textBox6.Text = item.itemSave;
             }
             else
             {
                 MessageBox.Show("Please check one of the search options", "Message Box");
             }
-
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void edit_btn_Click(object sender, EventArgs e)
         {
             textBoxEnable(true);
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void save_btn_Click(object sender, EventArgs e)
         {
             XMLModifier();
         }
 
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
         {
-            if(e.KeyCode == Keys.Enter)
+            if (e.KeyCode == Keys.Enter)
             {
-                this.button1_Click_1(sender, e);
+                this.search_btn_Click(sender, e);
             }
         }
     }

@@ -22,7 +22,7 @@ namespace HardLiquor_Sales
         public string name;
         public string type;
         public static string filePath_temp = System.Reflection.Assembly.GetExecutingAssembly().Location;
-        public string dbFilePath = System.IO.Path.GetDirectoryName(filePath_temp) + "\\Liquor_Database.xml";
+        public string dbFilePath = System.IO.Path.GetDirectoryName(filePath_temp) + "\\Database\\Liquor_Database.xml";
         //public string dbFilePath = "C:\\Users\\rhehf\\OneDrive\\Desktop\\database.xml";
 
         private void textBox2_KeyPress(object sender, KeyPressEventArgs e)

@@ -52,10 +52,12 @@ namespace HardLiquor_Sales
             ReadDatabaseItems();
         }
 
+        string date = DateTime.Now.ToString("yyyy-MM-dd__hh-mm-ss");
+
         OpenFileDialog TGP_OFD = new OpenFileDialog();
         public static string filePath_temp = System.Reflection.Assembly.GetExecutingAssembly().Location;
-        public string dbFilePath = System.IO.Path.GetDirectoryName(filePath_temp) + "\\TGP_Database.xml";
-        public string dbFilePath_old = System.IO.Path.GetDirectoryName(filePath_temp) + "\\TGP_Database_old.xml";
+        public string dbFilePath = System.IO.Path.GetDirectoryName(filePath_temp) + "\\Database\\TGP_Database.xml";
+        public string dbFilePath_old = System.IO.Path.GetDirectoryName(filePath_temp) + "\\Database\\Old\\TGP_Database_old_";
         public string tgpExcelFile = System.IO.Path.GetDirectoryName(filePath_temp) + "\\TGP_Price_Checker_";
         public string TGPPriceCheckerExcelFile = System.IO.Path.GetDirectoryName(filePath_temp) + "\\TGP_PriceChecker_";
 
@@ -249,7 +251,7 @@ namespace HardLiquor_Sales
 
         public void CopyFile()
         {
-            System.IO.File.Copy(dbFilePath, dbFilePath_old, true);
+            System.IO.File.Copy(dbFilePath, dbFilePath_old + date + ".xml", true);
         }
 
         private void UpdateDatabase(List<ItemInfo> updateItemList)
@@ -273,30 +275,10 @@ namespace HardLiquor_Sales
                 nodeList[getIndex].Attributes[5].InnerText = updateItem.landed_cost;
             }
 
-            //                updateItemList.Find(x => x.itemNum.Equals(node.)
-
-            // Attributes[0]; // Item Number
-            // Attributes[1]; // Item UPC
-            // Attributes[2]; // Item Description
-            // Attributes[3]; // Item Pk
-            // Attributes[4]; // Item TGP SRP
-            // Attributes[5]; // Item Landed Cost
-
-            /*
-            nodeList[getIndex].Attributes[0].InnerText = textBox2.Text;
-            nodeList[getIndex].Attributes[1].InnerText = textBox3.Text;
-            nodeList[getIndex].Attributes[2].InnerText = textBox4.Text;
-            nodeList[getIndex].Attributes[3].InnerText = textBox5.Text;
-            nodeList[getIndex].Attributes[4].InnerText = textBox6.Text;
-            nodeList[getIndex].Attributes[5].InnerText = textBox7.Text;
-            */
-
             XmlDoc.Save(dbFilePath);
             ReadDatabaseItems();
 
             MessageBox.Show("Database file is successfully updated.", "Message Box");
-
-            
         }
 
         // Write matched items in Excel
@@ -350,10 +332,13 @@ namespace HardLiquor_Sales
 
                         myexcelWorksheet.Cells[row, ITEM_PROGRAM_SRP] = marginPrice.ToString("0.##");
 
-                        pBar1.PerformStep();
+                        if (pBar1.Value < ((pBar1.Maximum) * 0.9))
+                        {
+                            pBar1.PerformStep();
+                        }
                     }
 
-                    pBar1.Value = pBar1.Maximum;
+                    
                     string date = DateTime.Now.ToString("yyyy-MM-dd__hh-mm-ss");
                     tgpExcelFile = tgpExcelFile + date + ".xlsx";
 
@@ -362,6 +347,7 @@ namespace HardLiquor_Sales
                     myexcelWorkbook.Close();
                     myexcelApplication.Quit();
 
+                    pBar1.Value = pBar1.Maximum;
                     MessageBox.Show("An Excel file created.");
 
                     UpdateDatabase(updateItemList);

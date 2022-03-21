@@ -54,7 +54,7 @@ namespace HardLiquor_Sales
         List<ItemInfo> databaseItems = new List<ItemInfo>();
 
         public static string filePath_temp = System.Reflection.Assembly.GetExecutingAssembly().Location;
-        public string dbFilePath = System.IO.Path.GetDirectoryName(filePath_temp) + "\\TGP_Database.xml";
+        public string dbFilePath = System.IO.Path.GetDirectoryName(filePath_temp) + "\\Database\\TGP_Database.xml";
 
         public void AddXmlNode(String sXml, String sNode, String sMenuNode, String sTypeAttrib_num, String sTypeAttrib_upc, String sTypeAttrib_desc, String sTypeAttrib_pk, String sTypeAttrib_tgp_srp, String sTypeAttrib_landed_cost)
         {

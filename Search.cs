@@ -15,7 +15,7 @@ namespace HardLiquor_Sales
     public partial class Search : Form
     {
         public static string filePath_temp = System.Reflection.Assembly.GetExecutingAssembly().Location;
-        public string dbFilePath = System.IO.Path.GetDirectoryName(filePath_temp) + "\\TGP_Database.xml";
+        public string dbFilePath = System.IO.Path.GetDirectoryName(filePath_temp) + "\\Database\\TGP_Database.xml";
 
         public struct ItemInfo
         {
@@ -143,6 +143,8 @@ namespace HardLiquor_Sales
             // Found
             if (itemNumber == true || upc == true)
             {
+                ReadDatabaseItems();
+
                 if (itemNumber == true)
                 {
                     item = databaseItems.Find(x => x.itemNum == textBox1.Text);
